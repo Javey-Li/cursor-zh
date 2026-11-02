@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 — 2026-11-03
+
+- Add the `cursor-zh` agent skill (`skills/cursor-zh/SKILL.md`) with a fixed check → dry-run → confirm → install → verify → restore workflow and safety rules.
+- Add macOS double-click installer `install.command`.
+- Add Windows double-click installer `install.cmd` and PowerShell script `install.ps1` (untested on Windows).
+- Add distribution tests and document all three entry points in the README.
+
 ## 0.1.0 — 2026-11-03
 
 - Initial Cursor-only release.

@@ -49,9 +49,26 @@ Cursor 是基于 VS Code 内核的编辑器，因此它的界面其实由两部�
 
 ### 环境要求
 
-- macOS（Apple Silicon 或 Intel）。Windows 尚未支持。
+- macOS（Apple Silicon 或 Intel）已验证；Windows 有安装脚本但尚未验证。
 - 已安装官方 Cursor，默认路径 `/Applications/Cursor.app`；装在别处请用 `--app` 指定。
 - Node.js **>= 18**（`package.json` 中的 `engines` 约束）。
+
+### 三种安装方式
+
+**1. 交给你的 Cursor / Claude agent（适合已经在用 agent 的人）**
+
+把仓库里的 [skills/cursor-zh/SKILL.md](skills/cursor-zh/SKILL.md) 发给你的 agent，或把 `skills/cursor-zh` 复制到它的 skills 目录，然后说“按 cursor-zh skill 帮我安装”。Skill 会先运行 `doctor`、`status` 和 `install --dry-run`，把要改的文件列给你，**征得你同意后才执行安装**；失败时会先 `restore`，不会手改 Cursor 文件。
+
+**2. 双击脚本（适合不想碰终端的人）**
+
+- macOS：双击 `install.command`。如果系统拦截，右键 → 打开。
+- Windows：双击 `install.cmd`（它会调用 `install.ps1`）。Windows 路径尚未完整验证，遇到问题请先 `restore` 并提 Issue。
+
+双击脚本会检查 Node.js、运行 `doctor`、调用 `install`，并在结束时保留窗口显示结果。安装前仍会要求你确认。
+
+**3. 命令行**
+
+见下方“从源码安装”。
 
 ### 安装（从源码）
 
@@ -65,7 +82,7 @@ node cli/index.js help            # 直接运行
 npm link                          # 之后可以直接用 cursor-zh 命令
 ```
 
-> **当前状态**：0.1.x 早期版本，五个命令都已可用，但版本适配与覆盖范围仍在推进。具体行为以 `cursor-zh help` 和 `cli/`、`packages/` 下的实际代码为准。
+> **当前状态**：0.2.x 早期版本，五个命令都已可用，但版本适配与覆盖范围仍在推进。具体行为以 `cursor-zh help` 和 `cli/`、`packages/` 下的实际代码为准。
 
 ### 首次使用
 

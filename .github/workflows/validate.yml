@@ -44,6 +44,17 @@ jobs:
             echo "No package-lock.json found; skipping install (the project targets zero runtime dependencies)."
           fi
 
+      - name: Shell script syntax
+        run: bash -n install.command
+
+      - name: PowerShell syntax
+        run: |
+          if command -v pwsh >/dev/null 2>&1; then
+            pwsh -NoProfile -Command "[scriptblock]::Create((Get-Content -Raw install.ps1)) | Out-Null"
+          else
+            echo "pwsh not installed; skipping PowerShell syntax check"
+          fi
+
       - name: Run tests
         run: npm test
 
