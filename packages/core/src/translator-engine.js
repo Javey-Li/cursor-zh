@@ -749,11 +749,12 @@ function processAttribute(el, attr, skipExclusion) {
   const value = el.getAttribute(attr);
   if (!value) return;
   const trimmed = value.trim();
-  const target = getTranslation(trimmed);
-  if (target && value.includes(trimmed)) {
+  const lookup = trimmed.replace(/\s+/g, ' ');
+  const target = getTranslation(lookup);
+  if (target) {
     el.classList.add('i18n-debug-highlight');
     el.setAttribute('data-i18n-original-' + attr, value);
-    el.setAttribute(attr, value.replace(trimmed, target));
+    el.setAttribute(attr, lookup !== trimmed ? target : value.replace(trimmed, target));
   }
 }
 

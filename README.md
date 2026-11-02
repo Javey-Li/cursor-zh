@@ -76,7 +76,7 @@ node cli/index.js install
 
 ## 覆盖情况
 
-当前词典有 3012 条唯一词条和 244 条正则，来源和每条冲突都记在 `dictionaries/manifest.json`、`dictionaries/conflicts.json`。
+当前词典有 3054 条唯一词条和 244 条正则，来源和每条冲突都记在 `dictionaries/manifest.json`、`dictionaries/conflicts.json`。
 
 已经覆盖的范围包括 Cursor 设置、Agent / Composer、自动化、远程控制、浏览器/网络、用量统计、PR 审查和安全提示。下面这些还可能是英文：
 
@@ -118,6 +118,8 @@ cursor-zh restore
 - 修改后应用不再有 Anysphere 的原始签名，默认会打 ad-hoc 签名。部分企业 MDM 或安全软件会拦截这种签名，遇到就 `restore` 或重装。
 - 版本适配靠 Cursor 的 `product.json`，没有维护完整的版本兼容表。Cursor 改了 workbench 的打包方式时，注入可能直接失效。
 - Windows 脚本还没完整测试。
+- 插件市场里的插件名称和简介来自 Cursor 的在线目录，是远程内容；工具只翻译界面文案，不翻译这些动态条目。
+- 自动化页面的“无法加载自动化”在未打补丁的 Cursor 上也能复现，属于 Cursor 服务端或账号状态，不是本地汉化造成的。
 - 目标是常用界面可用中文，不保证所有角落都翻译。
 
 ## 常见问题

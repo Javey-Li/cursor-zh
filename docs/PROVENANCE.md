@@ -14,7 +14,7 @@
 | 4 | 字典条目（MIT 部分） | 同上（`role: mit` 的两个来源，条数见 `manifest.json`） | [Uncle-Gao/Live-Translator-Hub](https://github.com/Uncle-Gao/Live-Translator-Hub) 的 `dictionary.zh-CN.json`，commit `c667b8b` | MIT | 按条目并入，来源与条数记录在 `manifest.json` |
 | 5 | 字典条目（MIT 部分） | 同上 | [lsh2253823857/cursor-i18n-tool](https://github.com/lsh2253823857/cursor-i18n-tool) 的 `dict.js`，commit `a5dbf9e` | MIT | 以文本方式解析（**不执行**其代码）后按条目并入 |
 | 6 | 本项目新增词条 | 同上（`role: own`） | 本项目 | MIT | **311 条词条（去重后贡献 310 条）+ 5 条正则模式**，覆盖设置页、Agent、自动化、远程控制、浏览器/网络、用量、PR 审查、安全提示等 |
-| 7 | 高优先级覆盖词条 | `dictionaries/overrides.json`（`role: override`） | 本项目 | MIT | 16 条针对 Cursor 3.27 菜单、快捷键和空状态的补充；最终字典合计 3012 条唯一词条 / 244 条模式 |
+| 7 | 高优先级覆盖词条 | `dictionaries/overrides.json`（`role: override`） | 本项目 | MIT | 75 条针对 Cursor 3.27 菜单、快捷键和空状态的补充；最终字典合计 3054 条唯一词条 / 244 条模式 |
 | 8 | VS Code 中文语言包 | 不随仓库分发；CLI 在缺失时通过 Cursor 扩展 CLI 安装 | Microsoft（Visual Studio Code 语言包） | Microsoft 的许可与 Marketplace 条款 | **不打包、不再分发**；只调用官方安装通道 |
 | 9 | Cursor 应用本体 | 不随仓库分发 | Anysphere | 专有 | 只在本地修改用户已安装的副本，不重新分发 |
 

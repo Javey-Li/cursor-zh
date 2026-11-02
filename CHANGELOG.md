@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 — 2026-11-03
+
+- Translate attribute values that contain line breaks, such as `Split Editor Right\n[⌥] Split Editor Down`.
+- Add Cursor 3.27 translations for Automation templates, marketplace UI, slash-command descriptions and sidebar states.
+- Dictionary is now 3,054 unique entries and 244 patterns.
+- Document that marketplace plugin names/descriptions are remote content, and that the automation list load error reproduces without the patch.
+
 ## 0.3.0 — 2026-11-03
 
 - Translate `aria-label`, `placeholder`, `data-placeholder`, `aria-placeholder` and `alt`, not just text nodes and `title`. Toolbar buttons, icon controls and search boxes no longer stay English.
