@@ -1,0 +1,51 @@
+cursor-zh
+=========
+
+cursor-zh is an unofficial community project. It is not affiliated with,
+endorsed by, or sponsored by Anysphere, Inc. or the Cursor team.
+
+Code
+----
+
+The following packages are vendored from Uncle-Gao/Live-Translator-Hub
+(https://github.com/Uncle-Gao/Live-Translator-Hub), commit
+c667b8bd922fe08c3a1bf4a767ba1c8c53fe9013, under the MIT License:
+
+  - packages/core
+  - packages/patcher-cursor
+
+Copyright (c) Uncle-Gao and contributors. See the LICENSE file in each
+vendored package and the upstream repository for the full MIT text.
+
+Dictionary data
+---------------
+
+The dictionary in dictionaries/zh-CN.json is a new compilation. Its sources:
+
+1. Community seed: vibepm666/cursor-localization-zh
+   https://github.com/vibepm666/cursor-localization-zh
+   commit 88f93c685ac5d1bc645fbb5c3e3cc1ff1c16e2a7
+   The upstream repository does not declare a license. Its English-to-Chinese
+   pairs are used here as seed data / translation memory with attribution.
+   If you are the rights holder and want the attribution changed or the seeded
+   data removed, please open an issue in this repository.
+
+2. MIT dictionary: Uncle-Gao/Live-Translator-Hub
+   packages/patcher-cursor/i18n/dictionary.zh-CN.json (MIT)
+
+3. MIT dictionary: lsh2253823857/cursor-i18n-tool
+   https://github.com/lsh2253823857/cursor-i18n-tool
+   commit a5dbf9ea7c1d915221cdf4de6af86bd69b7cc7ab (MIT)
+
+4. Original additions by Javey-Li and contributors, licensed MIT as part of
+   this repository.
+
+The upstream vibepm666 runtime code (Python installer, JavaScript injection
+engine, and related scripts) is NOT copied into this repository.
+
+Trademarks
+----------
+
+Cursor is a trademark of Anysphere, Inc. This project uses the name only to
+describe compatibility. All other trademarks are the property of their
+respective owners.

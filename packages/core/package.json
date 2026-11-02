@@ -1,0 +1,11 @@
+{
+  "name": "@live-translator/core",
+  "version": "2.7.1",
+  "description": "Unified translation runtime kernel (vendored from Uncle-Gao/Live-Translator-Hub, MIT)",
+  "license": "MIT",
+  "main": "src/translator-engine.js",
+  "files": [
+    "src"
+  ],
+  "private": true
+}

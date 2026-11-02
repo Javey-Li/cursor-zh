@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-03",
+  "cursorVersions": [
+    "3.27.x"
+  ],
+  "totalUniqueEntries": 2997,
+  "patternCount": 244,
+  "conflictCount": 240,
+  "patternConflictCount": 0,
+  "sources": [
+    {
+      "name": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+      "url": "https://github.com/vibepm666/cursor-localization-zh/blob/main/localization/Core_Dictionary.json",
+      "license": "NOASSERTION (upstream has no LICENSE; used as seed translation memory with attribution)",
+      "role": "seed",
+      "sha256": "d291d4d7828164e218e7406e63aa45b9731413a91ac3e71c8ddfa1922e3a5dbf",
+      "rawEntries": 2710,
+      "usableEntries": 2683,
+      "filteredEntries": 27,
+      "uniqueEntries": 2570,
+      "duplicateKeys": 113,
+      "contributedEntries": 2123,
+      "patterns": 239
+    },
+    {
+      "name": "cursor-zh Cursor 3.27 additions (own sections + 5 patterns)",
+      "url": "https://github.com/Javey-Li/cursor-zh",
+      "license": "MIT",
+      "role": "own",
+      "sha256": null,
+      "rawEntries": 311,
+      "usableEntries": 310,
+      "filteredEntries": 1,
+      "uniqueEntries": 310,
+      "duplicateKeys": 0,
+      "contributedEntries": 310,
+      "patterns": 5
+    },
+    {
+      "name": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+      "url": "https://github.com/Uncle-Gao/Live-Translator-Hub/blob/c667b8bd922fe08c3a1bf4a767ba1c8c53fe9013/packages/patcher-cursor/i18n/dictionary.zh-CN.json",
+      "license": "MIT",
+      "role": "mit",
+      "sha256": "8f96c01932488caddbb38b43656ba9d9b916f0cd516a0a2559dc1d4e8bab33ab",
+      "rawEntries": 366,
+      "usableEntries": 360,
+      "filteredEntries": 6,
+      "uniqueEntries": 360,
+      "duplicateKeys": 0,
+      "contributedEntries": 360,
+      "patterns": 0
+    },
+    {
+      "name": "lsh2253823857/cursor-i18n-tool dict.js",
+      "url": "https://github.com/lsh2253823857/cursor-i18n-tool/blob/a5dbf9ea7c1d915221cdf4de6af86bd69b7cc7ab/dict.js",
+      "license": "MIT",
+      "role": "mit",
+      "sha256": "8d7cfda87c6a217319280e1903ff6e19b689c1bec606599dcd5958ab6a93bb10",
+      "rawEntries": 505,
+      "usableEntries": 504,
+      "filteredEntries": 1,
+      "uniqueEntries": 493,
+      "duplicateKeys": 11,
+      "contributedEntries": 204,
+      "patterns": 0
+    }
+  ],
+  "conflicts": {
+    "total": 240,
+    "byPair": {
+      "mit>mit": 154,
+      "mit>seed": 188,
+      "own>mit": 1,
+      "seed>seed": 4
+    },
+    "file": "conflicts.json"
+  },
+  "provenance": [
+    "Seed: vibepm666/cursor-localization-zh publishes no LICENSE file. Its English-to-Chinese pairs are reused as translation memory with attribution; no upstream code, installer, binary, or Microsoft language pack is copied. Individual short UI strings carry weak copyright; the compilation was not copied verbatim (own schema, own filtering, own merge).",
+    "Own additions: sections 'cursor_3_27_补充' (85) and 'cursor_3_27_设置与自动化补充' (226) inside the same Core_Dictionary.json, plus 5 patterns (2 AI Stats readouts, 3 'N minutes/hours/days left' countdowns).",
+    "MIT: Uncle-Gao/Live-Translator-Hub dictionary.zh-CN.json and lsh2253823857/cursor-i18n-tool dict.js, both MIT licensed, pinned to the commits listed below. The JS file is parsed as text with a small safe tokenizer, never executed.",
+    "Priority on conflicting translations: own > MIT > upstream seed. When two MIT dictionaries disagree, the one listed first in this manifest wins. Every conflict is recorded in conflicts.json with the rejected values.",
+    "Filtering drops untranslated pairs (Chinese == English), values without any Chinese character, URLs, file names, and regex/code noise.",
+    "The build is deterministic: entries are sorted by key, lists are ordered explicitly, no wall-clock timestamp is used (generatedAt is fixed), and the MIT sources are pinned to the commits below. Rebuilding from the same inputs produces identical bytes.",
+    "Rebuild with: python3 tools/build_dictionary.py (sources overridable via CURSOR_ZH_UPSTREAM_DIR and the per-source path env vars)."
+  ],
+  "licenseNotes": {
+    "seed": "No LICENSE upstream; data used as seed with attribution (see NOTICE owned elsewhere).",
+    "own": "MIT, this repository.",
+    "mit": "MIT; reproduce the upstream copyright notice when redistributing."
+  },
+  "mitSources": [
+    {
+      "name": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+      "repo": "https://github.com/Uncle-Gao/Live-Translator-Hub",
+      "commit": "c667b8bd922fe08c3a1bf4a767ba1c8c53fe9013",
+      "path": "packages/patcher-cursor/i18n/dictionary.zh-CN.json",
+      "license": "MIT"
+    },
+    {
+      "name": "lsh2253823857/cursor-i18n-tool dict.js",
+      "repo": "https://github.com/lsh2253823857/cursor-i18n-tool",
+      "commit": "a5dbf9ea7c1d915221cdf4de6af86bd69b7cc7ab",
+      "path": "dict.js",
+      "license": "MIT"
+    }
+  ],
+  "patternConflicts": []
+}

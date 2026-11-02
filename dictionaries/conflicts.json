@@ -1,0 +1,3802 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh-CN",
+  "generatedAt": "2026-11-03",
+  "total": 240,
+  "byPair": {
+    "mit>mit": 154,
+    "mit>seed": 188,
+    "own>mit": 1,
+    "seed>seed": 4
+  },
+  "conflicts": [
+    {
+      "key": "Accelerate development, shared knowledge, and context across your team",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "加速开发，在团队中共享知识和上下文"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "跨团队加速开发并共享知识与上下文"
+        }
+      ]
+    },
+    {
+      "key": "Accept the next word of a suggestion via",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "通过快捷键接受建议的下一个词"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用"
+        }
+      ]
+    },
+    {
+      "key": "Accept the next word of a suggestion via Ctrl+RightArrow",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "通过Ctrl+右箭头接受建议的下一个词"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "通过 Ctrl+右箭头接受建议的下一个单词"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "通过 Ctrl+右箭头 接受建议的下一个词"
+        }
+      ]
+    },
+    {
+      "key": "Add a custom MCP tool here or configure project-specific tools in <project-root>/.cursor/mcp.json",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在此添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置项目特定工具"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在此添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置项目专用工具"
+        }
+      ]
+    },
+    {
+      "key": "Add documentation to use as context. You can also use @Add in Chat or while editing to add a doc.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "添加文档以用作上下文。您也可以在聊天或编辑时使用 @Add 来添加文档。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "添加文档用作上下文。您还可以在聊天中或编辑时使用 @Add 来添加文档。"
+        }
+      ]
+    },
+    {
+      "key": "Adjust how much detail is shown for tool calls",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "调整工具调用显示的详细程度"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "调整工具调用所显示的详细程度"
+        }
+      ]
+    },
+    {
+      "key": "Adjust the default behavior of sending a message while Agent is running",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "调整Agent运行时发送消息的默认行为"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "调整智能体运行时发送消息的默认行为"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "调整 Agent 运行时发送消息的默认行为"
+        }
+      ]
+    },
+    {
+      "key": "After periods of inactivity, open the Agent Pane to a new conversation",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在一段时间不活动后，打开Agent面板到新对话"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "一段时间不活动后，将智能体面板打开为新对话"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "闲置一段时间后，打开 Agent 面板时开始新对话"
+        }
+      ]
+    },
+    {
+      "key": "Agent Autocomplete",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "智能代理自动补全"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体自动补全"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Agent 自动补全"
+        }
+      ]
+    },
+    {
+      "key": "Agent Review",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "智能代理审查"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体审查"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Agent 审查"
+        }
+      ]
+    },
+    {
+      "key": "Agent Settings",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "智能代理设置"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "智能体设置"
+        }
+      ]
+    },
+    {
+      "key": "All Branch Changes",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "全部分支更改"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "所有分支更改"
+        }
+      ]
+    },
+    {
+      "key": "Allow Agent to fetch content from URLs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "允许代理从URL获取内容"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "允许智能体从 URL 获取内容"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "允许 Agent 从 URL 获取内容"
+        }
+      ]
+    },
+    {
+      "key": "Allow Agent to search the web for relevant information",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "允许代理搜索网络以获取相关信息"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "允许智能体在网络上搜索相关信息"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "允许 Agent 搜索网络以获取相关信息"
+        }
+      ]
+    },
+    {
+      "key": "Allow Agent to switch modes without asking first, such as Agent to Plan or Agent to Debug. When off, Cursor asks before switching.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "允许智能体无需确认即可切换模式（如智能体到计划或智能体到调试）。关闭时，Cursor 会在切换前询问。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "允许智能体在不先询问的情况下切换模式，例如从智能体切换到计划模式或调试模式。关闭后，Cursor 会在切换前询问。"
+        }
+      ]
+    },
+    {
+      "key": "Allow Tab to trigger while in a comment region",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "允许在注释区域内使用Tab触发"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "允许在注释区域中触发 Tab 补全"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "允许在注释区域中触发 Tab"
+        }
+      ]
+    },
+    {
+      "key": "Apply .cursorignore files to all subdirectories. Changing this setting will require a restart of Cursor.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "将.cursorignore文件应用于所有子目录。更改此设置需要重新启动Cursor。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "将 .cursorignore 文件应用到所有子目录。更改此设置需要重启 Cursor。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "将 .cursorignore 文件应用到所有子目录。更改此设置需要重启 Cursor。"
+        }
+      ]
+    },
+    {
+      "key": "Applying Changes",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "应用更改"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "正在应用更改"
+        }
+      ]
+    },
+    {
+      "key": "Are you sure? This replaces your settings and extensions with your vscode ones. This cannot be undone.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "您确定吗？这会将您的设置和扩展替换为您的 vscode 设置和扩展。此操作无法撤消。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "确定要继续吗？这将用您的 VS Code 设置和扩展替换当前的设置和扩展。此操作无法撤销。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "确定吗？这将用您的 VS Code 设置和扩展替换当前设置和扩展。此操作无法撤销。"
+        }
+      ]
+    },
+    {
+      "key": "Ask Every Time",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "每次都询问"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "每次询问"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "每次询问"
+        }
+      ]
+    },
+    {
+      "key": "Attribution",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "归属"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "代码署名"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "署名"
+        }
+      ]
+    },
+    {
+      "key": "Auto Format on Agent Finish",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "智能代理完成时自动格式化"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体完成时自动格式化"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Agent 完成时自动格式化"
+        }
+      ]
+    },
+    {
+      "key": "Auto Import for Python",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "Python自动导入"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "Python 自动导入"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Python 自动导入"
+        }
+      ]
+    },
+    {
+      "key": "Auto-Approved Mode Transitions",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动批准模式转换"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "自动批准的模式切换"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动批准模式切换"
+        }
+      ]
+    },
+    {
+      "key": "Auto-Clear Chat",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动清除聊天"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动清除对话"
+        }
+      ]
+    },
+    {
+      "key": "Auto-Run On Agent Finish",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "智能体完成时自动运行"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Agent 完成时自动运行"
+        }
+      ]
+    },
+    {
+      "key": "Auto-hide editor when empty",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "编辑器为空时自动隐藏"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "空闲时自动隐藏编辑器"
+        }
+      ]
+    },
+    {
+      "key": "Automatically format files when the agent finishes",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "代理完成时自动格式化文件"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体完成任务时自动格式化文件"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "当智能体完成时自动格式化文件"
+        }
+      ]
+    },
+    {
+      "key": "Automatically import agent configs from other tools",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动从其他工具导入Agent配置"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "自动从其他工具导入智能体配置"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动从其他工具导入智能体配置"
+        }
+      ]
+    },
+    {
+      "key": "Automatically import necessary modules for TypeScript",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动导入TypeScript所需模块"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "自动导入 TypeScript 所需的模块"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动为 TypeScript 导入必要的模块"
+        }
+      ]
+    },
+    {
+      "key": "Automatically index any new folders with fewer than 250,000 files",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动索引任何包含少于250,000个文件的新文件夹"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "自动索引少于 250,000 个文件的新文件夹"
+        }
+      ]
+    },
+    {
+      "key": "Automatically index any new folders with fewer than 50,000 files",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动索引任何少于50,000个文件的新文件夹"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动索引文件数少于 50,000 的新增文件夹"
+        }
+      ]
+    },
+    {
+      "key": "Automatically index repositories to speed up Grep searches. All data is stored locally.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动索引仓库以加速Grep搜索。所有数据均存储在本地。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "自动索引代码库以加速 Grep 搜索。所有数据均存储在本地。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动索引仓库以加速 Grep 搜索。所有数据都存储在本地。"
+        }
+      ]
+    },
+    {
+      "key": "Automatically jump to the next diff when accepting changes with",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "接受更改时自动跳转到下一个差异"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "当接受更改时，自动跳转到下一个差异，借助"
+        }
+      ]
+    },
+    {
+      "key": "Automatically jump to the next diff when accepting changes with Ctrl+Y",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "当使用Ctrl+Y接受更改时自动跳转到下一个差异"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用 Ctrl+Y 接受更改时自动跳转到下一个差异"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "使用 Ctrl+Y 接受更改时自动跳到下一个差异"
+        }
+      ]
+    },
+    {
+      "key": "Automatically open localhost links in the Browser Tab",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "自动在浏览器标签页中打开本地主机链接"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "自动在浏览器标签页中打开 localhost 链接"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自动在浏览器标签页中打开 localhost 链接"
+        }
+      ]
+    },
+    {
+      "key": "Automatically parse links when pasted into Quick Edit (Ctrl+K) input",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "粘贴到快速编辑（Ctrl+K）输入时自动解析链接"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "粘贴到快速编辑 (Ctrl+K) 输入框时自动解析链接"
+        }
+      ]
+    },
+    {
+      "key": "Automatically review your changes for issues after each commit",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "每次提交后自动审查更改中的问题"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在每次提交后自动审查您的更改是否存在问题"
+        }
+      ]
+    },
+    {
+      "key": "Automatically run Review when Agent finishes and has made file changes",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "当智能体完成并已修改文件时自动运行审查"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "当 Agent 完成并修改了文件时自动运行审查"
+        }
+      ]
+    },
+    {
+      "key": "Background agents only work in folders with a git repository.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "后台代理仅适用于包含 git 仓库的文件夹。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "后台智能体仅在包含 git 仓库的文件夹中工作。"
+        }
+      ]
+    },
+    {
+      "key": "Balanced",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "平衡"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "均衡"
+        }
+      ]
+    },
+    {
+      "key": "Balanced quality and speed, recommended for most tasks",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "平衡质量和速度，推荐用于大多数任务"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "质量与速度均衡，适合大多数任务"
+        }
+      ]
+    },
+    {
+      "key": "Beta",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "测试版"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "测试功能"
+        }
+      ]
+    },
+    {
+      "key": "Browse Marketplace",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "浏览市场"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "浏览插件市场"
+        }
+      ]
+    },
+    {
+      "key": "Browser Tab",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "浏览器标签页"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "浏览器标签"
+        }
+      ]
+    },
+    {
+      "key": "By default, get notifications for stable updates. In Early Access, pre-release builds may be unstable for production work.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "默认情况下，获取稳定版更新的通知。在早期访问中，预发布版本可能不稳定，不适合生产工作。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "默认情况下，接收稳定版更新的通知。在抢先体验通道中，预发布版本可能不稳定，不建议用于生产环境。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "默认情况下，您将收到稳定版更新通知。在抢先体验中，预发布版本可能不适合生产使用。"
+        }
+      ]
+    },
+    {
+      "key": "Change the base URL for OpenAI API requests.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "更改 OpenAI API 请求的基础 URL。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "更改 OpenAI API 请求的基 URL。"
+        }
+      ]
+    },
+    {
+      "key": "Check network connectivity to all Cursor services",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "检查到所有 Cursor 服务的网络连接"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "检查与所有 Cursor 服务的网络连接"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "检查与所有 Cursor 服务的网络连接"
+        }
+      ]
+    },
+    {
+      "key": "Choose between quick or more thorough, higher-cost analysis",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "选择快速或更全面、成本更高的分析"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "选择快速或更彻底、成本更高的分析"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "选择快速或更彻底、更高成本的分析"
+        }
+      ]
+    },
+    {
+      "key": "Choose how Agent runs tools like command execution, MCP, and file writes.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "选择代理如何运行工具，如命令执行、MCP 和文件写入。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "选择智能体如何运行命令执行、MCP 和文件写入等工具。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "选择 Agent 如何运行工具（如命令执行、MCP 和文件写入）。"
+        }
+      ]
+    },
+    {
+      "key": "Choose how much detail Agent tool calls show in the conversation",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "选择智能体工具调用在对话中显示的详细程度"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "选择在对话中显示多少智能体工具调用细节"
+        }
+      ]
+    },
+    {
+      "key": "Clear log",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "清除日志"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "清空日志"
+        }
+      ]
+    },
+    {
+      "key": "Close All Tabs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "关闭所有标签页"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "关闭全部标签页"
+        }
+      ]
+    },
+    {
+      "key": "Cloud Agents",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "云端代理"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "云端智能体"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "云端智能体"
+        }
+      ]
+    },
+    {
+      "key": "Cloud Agents require a Git repository in an open folder.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "Cloud Agents 需要一个在打开的文件夹中的 Git 仓库。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "云智能体需要打开的文件夹中包含 Git 仓库。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "云端智能体需要在打开的文件夹中有 Git 仓库。"
+        }
+      ]
+    },
+    {
+      "key": "Cmd+K: Escape focuses the editor when you have a diff",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "有差异时 Esc 聚焦编辑器"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Cmd+K：有差异时按 Escape 聚焦编辑器"
+        }
+      ]
+    },
+    {
+      "key": "Collapse auto-run command output by default in Terminal command previews",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在终端命令预览中默认折叠自动运行的命令输出"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在终端命令预览中默认折叠自动运行命令输出"
+        }
+      ]
+    },
+    {
+      "key": "Command Allowlist",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "命令允许列表"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "命令白名单"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "命令白名单"
+        }
+      ]
+    },
+    {
+      "key": "Commands that can run automatically",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "可以自动运行的命令"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "可自动运行的命令"
+        }
+      ]
+    },
+    {
+      "key": "Commit Attribution",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "提交归属"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "提交署名"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "提交署名"
+        }
+      ]
+    },
+    {
+      "key": "Compact",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "精简"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "紧凑"
+        }
+      ]
+    },
+    {
+      "key": "Compact Terminal Tool Calls",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "精简终端工具调用"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "紧凑显示终端工具调用"
+        }
+      ]
+    },
+    {
+      "key": "Configure Azure OpenAI to use OpenAI models through your Azure account.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "配置 Azure OpenAI 以通过您的 Azure 账户使用 OpenAI 模型。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "配置 Azure OpenAI，通过您的 Azure 账户使用 OpenAI 模型。"
+        }
+      ]
+    },
+    {
+      "key": "Configure font, formatting, minimap and more",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "配置字体、格式、缩略图等"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "配置字体、格式化、缩略图等"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "配置字体、格式化、小地图等"
+        }
+      ]
+    },
+    {
+      "key": "Configured in the dashboard",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "在控制台中配置"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在控制面板中配置"
+        }
+      ]
+    },
+    {
+      "key": "Connect GitHub/GitLab, manage team and user settings, and configure environments",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "连接 GitHub/GitLab，管理团队和用户设置，并配置环境"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "连接 GitHub/GitLab，管理团队和用户设置，配置环境"
+        }
+      ]
+    },
+    {
+      "key": "Context-aware, multi-line suggestions around your cursor based on recent edits",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "基于最近编辑，在光标处提供上下文感知的多行建议"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "基于最近编辑，在光标周围提供上下文感知的多行建议"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "基于最近编辑，围绕光标提供上下文感知的多行建议"
+        }
+      ]
+    },
+    {
+      "key": "Contextual suggestions while prompting Agent",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "提示Agent时的上下文建议"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "向智能体提问时提供上下文建议"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在提示 Agent 时提供上下文建议"
+        }
+      ]
+    },
+    {
+      "key": "Control tokens control how likely the model is to produce no-ops. Will be replaced with auto-selection",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "控制令牌决定模型产生空操作的可能性。将被自动选择取代"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "控制令牌控制模型产生空操作的可能性。将被自动选择替代"
+        }
+      ]
+    },
+    {
+      "key": "Control which network requests are allowed when commands run in the sandbox. Edit allowed/denied domains in sandbox.json in your workspace.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh Cursor 3.27 additions (own sections + 5 patterns)",
+        "value": "控制沙箱中运行命令时允许的网络请求。在工作区的 sandbox.json 中编辑允许/拒绝的域名。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "控制命令在沙箱中运行时允许的网络请求。在工作区的 sandbox.json 中编辑允许/拒绝的域名。"
+        }
+      ]
+    },
+    {
+      "key": "Crawl and index custom resources and developer docs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "爬取并索引自定义资源和开发者文档"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "爬取和索引自定义资源和开发者文档"
+        }
+      ]
+    },
+    {
+      "key": "Create commands to build reusable workflows",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "创建命令以构建可重用工作流"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "创建命令以构建可复用工作流"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "创建命令以构建可复用的工作流"
+        }
+      ]
+    },
+    {
+      "key": "Create detailed plans for accomplishing tasks",
+      "type": "within-source",
+      "chosen": {
+        "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+        "value": "为完成任务创建详细计划"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "创建完成任务所需的详细计划"
+        }
+      ]
+    },
+    {
+      "key": "Create reusable workflows triggered with / prefix in chat. Use commands to standardize processes and make common tasks more efficient.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "创建可以通过聊天中的/前缀触发的可重用工作流。使用命令标准化流程，提高常见任务的效率。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "创建在聊天中通过 / 前缀触发的可复用工作流。使用命令标准化流程，提高常见任务的效率。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "创建在聊天中使用 / 前缀触发的可复用工作流。使用命令来标准化流程，使常见任务更高效。"
+        }
+      ]
+    },
+    {
+      "key": "Create specialized agents for complex tasks. Subagents can be invoked by the agent to handle focused work in parallel.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "为复杂任务创建专门的Agent。子Agent可由Agent调用以并行处理专注工作。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "创建用于复杂任务的专业智能体。子智能体可被主智能体调用，以并行处理专项工作。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "为复杂任务创建专门的智能体。子智能体可以被智能体调用，以并行处理专注的工作。"
+        }
+      ]
+    },
+    {
+      "key": "Create specialized agents to handle focused tasks",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "创建专门的Agent以处理专注任务"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "创建专业智能体来处理专项任务"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "创建专门的智能体来处理专注的任务"
+        }
+      ]
+    },
+    {
+      "key": "Cursor Account",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "Cursor 账号"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Cursor 账户"
+        }
+      ]
+    },
+    {
+      "key": "Cursor Tab",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "Cursor 标签页"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "Cursor Tab 补全"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Cursor 代码补全"
+        }
+      ]
+    },
+    {
+      "key": "Cursor periodically removes old worktrees to free disk space. Tune how aggressively cleanup runs.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "Cursor 会定期清理旧工作树以释放磁盘空间。可调整清理策略的激进程度。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Cursor 会定期移除旧工作树以释放磁盘空间。可调整清理执行的激进程度。"
+        }
+      ]
+    },
+    {
+      "key": "Custom keywords that trigger auto-submit in voice mode. Only single words (no spaces) are allowed. Punctuation and capitalization are ignored.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "触发语音模式中自动提交的自定义关键词。只允许单个单词（无空格）。忽略标点符号和大小写。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在语音模式下触发自动提交的自定义关键字。仅允许单个单词（无空格）。忽略标点符号和大小写。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在语音模式下触发自动提交的自定义关键词。仅允许单个词语（无空格）。忽略标点和大小写。"
+        }
+      ]
+    },
+    {
+      "key": "Customize",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "自定义界面"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "自定义"
+        }
+      ]
+    },
+    {
+      "key": "Data Sharing Enabled",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "已启用数据共享"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "数据共享已启用"
+        }
+      ]
+    },
+    {
+      "key": "Default Approach",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "默认方法"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "默认方式"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "默认方式"
+        }
+      ]
+    },
+    {
+      "key": "Disable AI features in specific repositories based on file pattern",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "根据文件模式在特定仓库中禁用AI功能"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "基于文件匹配模式在特定代码库中禁用 AI 功能"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "基于文件模式在特定仓库中禁用 AI 功能"
+        }
+      ]
+    },
+    {
+      "key": "Disposable Tracking",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "Disposable 追踪"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "一次性追踪"
+        }
+      ]
+    },
+    {
+      "key": "Docs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "文档"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "官方文档"
+        }
+      ]
+    },
+    {
+      "key": "Domains that Agent can fetch from automatically. Use '*' for all domains, '*.example.com' for wildcard subdomains.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "Agent 可以自动获取的域名。使用 '*' 表示所有域名，'*.example.com' 表示通配符子域名。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体可自动请求的域名。使用 '*' 匹配所有域名，'*.example.com' 匹配通配符子域名。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Agent 可以自动获取的域名。使用 '*' 表示所有域名，'*.example.com' 表示通配子域名。"
+        }
+      ]
+    },
+    {
+      "key": "Early Access",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "早期访问"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "抢先体验"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "抢先体验"
+        }
+      ]
+    },
+    {
+      "key": "Embed codebase for improved contextual understanding and knowledge. Embeddings and metadata are stored in the",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "嵌入代码库以改善上下文理解和知识。嵌入和元数据存储在"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "嵌入代码库以增强上下文理解和知识。嵌入向量和元数据存储在"
+        }
+      ]
+    },
+    {
+      "key": "Embed codebase for improved contextual understanding and knowledge. Embeddings and metadata are stored in the cloud, but all code is stored locally.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "嵌入代码库以提高上下文理解和知识。Embeddings 和 metadata 存储在云端，但所有代码都是本地存储。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "嵌入代码库以提高上下文理解和知识。嵌入向量和元数据存储在云端，但所有代码都存储在本地。"
+        }
+      ]
+    },
+    {
+      "key": "Enable Disposable Tracking",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "启用 Disposable 追踪"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "启用一次性追踪"
+        }
+      ]
+    },
+    {
+      "key": "Enable auto import for Python. This is a beta feature.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "启用Python自动导入。这是一个测试版功能。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "启用 Python 自动导入。这是一个测试功能。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "启用 Python 的自动导入。这是一个测试版功能。"
+        }
+      ]
+    },
+    {
+      "key": "Enable leak detection console output",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "启用泄漏检测控制台输出"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "启用内存泄漏检测控制台输出"
+        }
+      ]
+    },
+    {
+      "key": "Enable on-demand usage to go beyond your plan's included usage. Requires a paid plan.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "启用按需用量以超出套餐包含的额度。需要付费套餐。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "启用按需用量以超出计划包含的用量。需要付费计划。"
+        }
+      ]
+    },
+    {
+      "key": "Entry-level plan with access to premium models, unlimited Tab completions, and more.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "入门级计划，可访问高级模型、无限 Tab 补全等功能。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "入门级计划，可使用高级模型、无限 Tab 补全等功能。"
+        }
+      ]
+    },
+    {
+      "key": "Explore subagent model",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "探索子智能体模型"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Explore 子智能体模型"
+        }
+      ]
+    },
+    {
+      "key": "Export Transcript",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "导出记录"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "导出对话记录"
+        }
+      ]
+    },
+    {
+      "key": "Extend Cursor with Skills, Rules, Agents, Hooks, and MCPs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "使用技能、规则、代理、钩子和 MCP 扩展 Cursor"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用技能、规则、智能体、钩子和 MCP 扩展 Cursor"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "通过技能、规则、智能体、钩子和 MCP 扩展 Cursor"
+        }
+      ]
+    },
+    {
+      "key": "Fetch Domain Allowlist",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "获取域允许列表"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "请求域名白名单"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "域名获取白名单"
+        }
+      ]
+    },
+    {
+      "key": "Font size for code editors and diffs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "代码编辑器和差异视图的字体大小"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "代码编辑器和差异对比的字体大小"
+        }
+      ]
+    },
+    {
+      "key": "General",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "常规"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "通用"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "通用"
+        }
+      ]
+    },
+    {
+      "key": "Glob patterns for files where Cursor Tab will not suggest",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "Cursor Tab 不会提供建议的文件的 Glob 模式"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Cursor Tab 不提供建议的文件 Glob 模式"
+        }
+      ]
+    },
+    {
+      "key": "HTTP/2 is recommended for low-latency streaming. In some corporate proxy and VPN environments, the compatibility mode may need to be lowered.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "建议使用 HTTP/2 以实现低延迟流式传输。在某些企业代理和 VPN 环境中，可能需要降低兼容模式。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "推荐使用 HTTP/2 以实现低延迟流式传输。在某些企业代理和 VPN 环境中，可能需要降低兼容模式。"
+        }
+      ]
+    },
+    {
+      "key": "Hierarchical Cursor Ignore",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "分层光标忽略"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "分层 Cursor 忽略"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "分层 Cursor 忽略"
+        }
+      ]
+    },
+    {
+      "key": "Hooks let you run custom scripts at specific points during the agent's execution to modify behavior, enforce policies, or add custom logging.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "钩子允许您在代理执行过程中的特定点运行自定义脚本，以修改行为、强制策略或添加自定义日志记录。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "钩子允许您在智能体执行的特定点运行自定义脚本，以修改行为、强制执行策略或添加自定义日志。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "钩子允许您在智能体执行的特定时间点运行自定义脚本，以修改行为、强制执行策略或添加自定义日志。"
+        }
+      ]
+    },
+    {
+      "key": "Ignore Files in",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "忽略文件在"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "忽略包含在"
+        }
+      ]
+    },
+    {
+      "key": "Ignore Symlinks in Cursor Ignore Search",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在光标忽略搜索中忽略符号链接"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在 Cursor 忽略搜索中忽略符号链接"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在 Cursor 忽略搜索中忽略符号链接"
+        }
+      ]
+    },
+    {
+      "key": "Import settings, extensions, and keybindings from VS Code",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "从 VS Code 导入设置、扩展和快捷键"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "导入 VS Code 的设置、扩展和快捷键绑定"
+        }
+      ]
+    },
+    {
+      "key": "Include Submodules in Agent Review",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在代理审查中包含子模块"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在智能体审查中包含子模块"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在 Agent 审查中包含子模块"
+        }
+      ]
+    },
+    {
+      "key": "Include Untracked Files in Agent Review",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在代理审查中包含未跟踪的文件"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在审查中包含未跟踪文件"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在 Agent 审查中包含未跟踪文件"
+        }
+      ]
+    },
+    {
+      "key": "Include changes from Git submodules in the review",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在审查中包含来自Git子模块的更改"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在审查中包含 Git 子模块的更改"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在审查中包含 Git 子模块的更改"
+        }
+      ]
+    },
+    {
+      "key": "Include untracked files (new files not yet added to Git) in the review",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在审查中包含未跟踪的文件（尚未添加到Git的新文件）"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在审查中包含未跟踪文件（尚未添加到 Git 的新文件）"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在审查中包含未跟踪的文件（尚未添加到 Git 的新文件）"
+        }
+      ]
+    },
+    {
+      "key": "Increase limits for faster responses",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "提高限制以获得更快的响应"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "提高限额以获得更快响应"
+        }
+      ]
+    },
+    {
+      "key": "Index Repositories for Instant Grep",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "索引仓库以支持即时Grep"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "为 Instant Grep 索引代码库"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "索引仓库以实现即时搜索"
+        }
+      ]
+    },
+    {
+      "key": "Indexing & Docs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "索引和文档"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "索引与文档"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "索引与文档"
+        }
+      ]
+    },
+    {
+      "key": "Jump back to the Agents Window to keep working across repos.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "返回智能体窗口以跨仓库继续工作。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "返回智能体窗口以继续跨仓库工作。"
+        }
+      ]
+    },
+    {
+      "key": "Jump to Next Diff on Accept",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "接受时跳转到下一个差异"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "接受后跳转到下一个差异"
+        }
+      ]
+    },
+    {
+      "key": "Leak Detection",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "泄漏检测"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "内存泄漏检测"
+        }
+      ]
+    },
+    {
+      "key": "Learn about Subagents",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "了解子代理"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "了解子智能体"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "了解子智能体"
+        }
+      ]
+    },
+    {
+      "key": "Legacy Terminal Tool",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "传统终端工具"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "旧版终端工具"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "旧版终端工具"
+        }
+      ]
+    },
+    {
+      "key": "Limit how many chat tabs can be open at once",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "限制同时打开的聊天标签页数量"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "限制同时打开的对话标签页数量"
+        }
+      ]
+    },
+    {
+      "key": "Log extension host RPC messages to JSON files viewable in Perfetto for performance analysis. Requires a restart to take effect.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "将扩展主机 RPC 消息记录到 JSON 文件中，可在 Perfetto 中查看以进行性能分析。需要重启才能生效。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "将扩展主机的 RPC 消息记录到 JSON 文件中，可在 Perfetto 中查看以进行性能分析。需要重启才能生效。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "将扩展宿主 RPC 消息记录到 JSON 文件中，可在 Perfetto 中查看以进行性能分析。需要重启才能生效。"
+        }
+      ]
+    },
+    {
+      "key": "MCP Allowlist",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "MCP 允许列表"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "MCP 白名单"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "MCP 白名单"
+        }
+      ]
+    },
+    {
+      "key": "MCP tools that can run automatically. Format: 'server:tool', 'server:*' for all tools from a server, '*:tool' for a tool from any server, or *:* for all tools from all servers",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "可以自动运行的 MCP 工具。格式：'server:tool'，'server:*' 表示服务器上的所有工具，'*:tool' 表示任意服务器上的某个工具，或 *:* 表示所有服务器上的所有工具"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "可自动运行的 MCP 工具。格式：'server:tool'、'server:*' 表示某服务器的全部工具、'*:tool' 表示任意服务器的某工具、*:* 表示所有服务器的所有工具"
+        }
+      ]
+    },
+    {
+      "key": "Make escape focus editor instead of closing the prompt bar",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "按 Esc 时聚焦编辑器，而不是关闭提示栏"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "让 Escape 聚焦编辑器而不是关闭提示栏"
+        }
+      ]
+    },
+    {
+      "key": "Manage Account",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "管理账户"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "管理账号"
+        }
+      ]
+    },
+    {
+      "key": "Manage your account and billing",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "管理您的账户和账单"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "管理您的账号与账单"
+        }
+      ]
+    },
+    {
+      "key": "Mark Agent commits as 'Made with Cursor'",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "将代理提交标记为“使用Cursor制作”"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "将智能体提交标记为 'Made with Cursor'"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "将 Agent 提交标记为'使用 Cursor 制作'"
+        }
+      ]
+    },
+    {
+      "key": "Mark pull requests as made with Cursor",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "将拉取请求标记为使用Cursor制作"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "将拉取请求标记为使用 Cursor 制作"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "将拉取请求标记为使用 Cursor 制作"
+        }
+      ]
+    },
+    {
+      "key": "Marketplace",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "市场"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "插件市场"
+        }
+      ]
+    },
+    {
+      "key": "Max total size (GB)",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "最大总大小 (GB)"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "最大总大小（GB）"
+        }
+      ]
+    },
+    {
+      "key": "Maximum number of Cursor-managed worktrees to retain across all workspaces. Older worktrees are removed first.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "在所有工作区中保留的 Cursor 管理工作树的最大数量。优先移除较旧的工作树。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在所有工作区中保留的由 Cursor 管理的工作树最大数量。较旧的工作树会优先被移除。"
+        }
+      ]
+    },
+    {
+      "key": "Maximum total size in GB across all Cursor-managed worktrees. Set to 0 to disable the size limit.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "所有 Cursor 管理工作树的最大总大小（GB）。设为 0 可禁用大小限制。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "所有由 Cursor 管理的工作树的最大总大小（GB）。设为 0 可禁用大小限制。"
+        }
+      ]
+    },
+    {
+      "key": "Meet the new Agents Window",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "了解全新智能体窗口"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "认识全新的智能体窗口"
+        }
+      ]
+    },
+    {
+      "key": "Mode transitions that will be automatically approved without prompting.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "无需提示即可自动批准的模式切换。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "无需提示即自动批准的模式切换。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "将自动批准而无需提示的模式切换。"
+        }
+      ]
+    },
+    {
+      "key": "Monthly Limit",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "月度限额"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "每月限额"
+        }
+      ]
+    },
+    {
+      "key": "Multiple models require a Git repository.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "多个模型需要一个 Git 仓库。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用多模型功能需要 Git 仓库。"
+        }
+      ]
+    },
+    {
+      "key": "New Chat",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "新建聊天"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "新对话"
+        }
+      ]
+    },
+    {
+      "key": "New Subagent",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "新建子Agent"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "新建子智能体"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "新建子智能体"
+        }
+      ]
+    },
+    {
+      "key": "Nightly",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "夜间版"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "每日构建"
+        }
+      ]
+    },
+    {
+      "key": "Nightly Updates Apply Automatically",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "夜间更新自动应用"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "每夜更新自动应用"
+        }
+      ]
+    },
+    {
+      "key": "Nightly builds will silently download and install updates without prompting you.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "夜间构建将在不提示您的情况下静默下载并安装更新。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "每夜版本将静默下载并安装更新，不会提示您。"
+        }
+      ]
+    },
+    {
+      "key": "No Cursor-managed worktrees on this machine.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "此机器上没有 Cursor 管理的工作树。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "这台机器上没有由 Cursor 管理的工作树。"
+        }
+      ]
+    },
+    {
+      "key": "No Docs Added",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "未添加文档"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无已添加的文档"
+        }
+      ]
+    },
+    {
+      "key": "No Hidden Dialogs Yet",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "尚无隐藏的对话框"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "暂无隐藏的弹窗"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无隐藏的对话框"
+        }
+      ]
+    },
+    {
+      "key": "No MCP Tools",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "无 MCP 工具"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无 MCP 工具"
+        }
+      ]
+    },
+    {
+      "key": "No Subagents Yet",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "暂无子Agent"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "暂无子智能体"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无子智能体"
+        }
+      ]
+    },
+    {
+      "key": "No changes to review",
+      "type": "within-source",
+      "chosen": {
+        "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+        "value": "没有可审查的更改"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无可审查的更改"
+        }
+      ]
+    },
+    {
+      "key": "No hook executions yet",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "尚无钩子执行"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "暂无钩子执行记录"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无钩子执行记录"
+        }
+      ]
+    },
+    {
+      "key": "No hooks configured",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "未配置钩子"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无已配置的钩子"
+        }
+      ]
+    },
+    {
+      "key": "Off",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "关闭"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "关"
+        }
+      ]
+    },
+    {
+      "key": "Open Tab as Editor",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "以编辑器打开标签页"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在编辑器中打开标签页"
+        }
+      ]
+    },
+    {
+      "key": "Open a Git repository",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "打开一个 Git 仓库"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "打开 Git 仓库"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "打开 Git 仓库"
+        }
+      ]
+    },
+    {
+      "key": "Open chat as editor tabs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "以编辑器标签页打开聊天"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "以编辑器标签页打开对话"
+        }
+      ]
+    },
+    {
+      "key": "PR Attribution",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "拉取请求归属"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "PR 署名"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "PR 署名"
+        }
+      ]
+    },
+    {
+      "key": "Pane",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "窗格"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "面板"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "面板"
+        }
+      ]
+    },
+    {
+      "key": "Plan & Usage",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "套餐与用量"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "计划与用量"
+        }
+      ]
+    },
+    {
+      "key": "Play a sound when Agent finishes responding",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "Agent 完成响应时播放声音"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体完成响应时播放提示音"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "当 Agent 完成回复时播放提示音"
+        }
+      ]
+    },
+    {
+      "key": "Please open a folder that contains a git repository to use this feature.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "请打开一个包含 git 仓库的文件夹以使用此功能。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "请打开包含 git 仓库的文件夹以使用此功能。"
+        }
+      ]
+    },
+    {
+      "key": "Preferences",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "偏好设置"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "首选项"
+        }
+      ]
+    },
+    {
+      "key": "Prevent Agent from automatically running Browser tools",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "阻止 Agent 自动运行浏览器工具"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "阻止智能体自动运行浏览器工具"
+        }
+      ]
+    },
+    {
+      "key": "Prevent Agent from automatically running MCP tools",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "阻止 Agent 自动运行 MCP 工具"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "阻止智能体自动运行 MCP 工具"
+        }
+      ]
+    },
+    {
+      "key": "Prevent Agent from creating or modifying files outside of the workspace automatically",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "阻止Agent在工作区外自动创建或修改文件"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "阻止智能体自动创建或修改工作区外的文件"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "阻止 Agent 自动在工作区外创建或修改文件"
+        }
+      ]
+    },
+    {
+      "key": "Prevent Agent from deleting files automatically",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "阻止Agent自动删除文件"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "阻止智能体自动删除文件"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "阻止 Agent 自动删除文件"
+        }
+      ]
+    },
+    {
+      "key": "Preview Box for Terminal Ctrl+K",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "终端Ctrl+K的预览框"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "终端 Ctrl+K 的预览框"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "终端 Ctrl+K 预览框"
+        }
+      ]
+    },
+    {
+      "key": "Primary Side Bar",
+      "type": "within-source",
+      "chosen": {
+        "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+        "value": "主侧栏"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "主侧边栏"
+        }
+      ]
+    },
+    {
+      "key": "Pro Plan",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "Pro 版"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "专业版计划"
+        }
+      ]
+    },
+    {
+      "key": "Provide domain-specific knowledge and workflows for the agent",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "为Agent提供领域特定的知识和工作流程"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "为智能体提供特定领域的知识和工作流"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "为智能体提供领域特定的知识和工作流"
+        }
+      ]
+    },
+    {
+      "key": "Queue Messages",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "队列消息"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "消息队列"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "消息队列"
+        }
+      ]
+    },
+    {
+      "key": "Reduce Transparency",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "降低透明度"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "减少透明度"
+        }
+      ]
+    },
+    {
+      "key": "Repositories",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "代码仓库"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "仓库"
+        }
+      ]
+    },
+    {
+      "key": "Required Domains",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "所需域名"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "必需的域名"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "必需域名"
+        }
+      ]
+    },
+    {
+      "key": "Reset \"Don't Ask Again\" Dialogs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "重置“不再询问”对话框"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "重置“不再询问”弹窗"
+        }
+      ]
+    },
+    {
+      "key": "Reset \"Don’t Ask Again\" Dialogs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "重置“不再询问”对话框"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "重置“不再询问”弹窗"
+        }
+      ]
+    },
+    {
+      "key": "Review PRs, fix CI, address comments, and more directly from Cursor",
+      "type": "within-source",
+      "chosen": {
+        "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+        "value": "直接在 Cursor 中审查 PR、修复 CI、回复评论等"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "直接在 Cursor 中审查 PR、修复 CI、处理评论等"
+        }
+      ]
+    },
+    {
+      "key": "Rules, Skills, Subagents",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "规则、技能、子代理"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "规则、技能与子智能体"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "规则、技能、子智能体"
+        }
+      ]
+    },
+    {
+      "key": "See warnings and tips that you've hidden",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "查看已隐藏的警告和提示"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "查看您已隐藏的警告和提示"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "查看您已隐藏的警告和提示"
+        }
+      ]
+    },
+    {
+      "key": "Send after current message",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在当前消息后发送"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "当前消息后发送"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在当前消息之后发送"
+        }
+      ]
+    },
+    {
+      "key": "Set a fixed amount or make it unlimited.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "设置固定额度或设为无限制。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "设置固定金额或设为无限制。"
+        }
+      ]
+    },
+    {
+      "key": "Set new limit",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "设置新限制"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "设置新限额"
+        }
+      ]
+    },
+    {
+      "key": "Show Add to Chat & Quick Edit buttons when selecting code",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "选中代码时显示“添加到聊天”和“快速编辑”按钮"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "选择代码时显示“添加到聊天”和“快速编辑”按钮"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "选中代码时显示[添加到聊天]和[快速编辑]按钮"
+        }
+      ]
+    },
+    {
+      "key": "Show Cursor in system tray",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在系统托盘中显示 Cursor"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在系统托盘显示 Cursor"
+        }
+      ]
+    },
+    {
+      "key": "Show Localhost Links in Browser",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在浏览器中显示本地主机链接"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在浏览器中显示 Localhost 链接"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在浏览器中显示 Localhost 链接"
+        }
+      ]
+    },
+    {
+      "key": "Show a hint for Ctrl+K in the Terminal",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在终端中显示Ctrl+K的提示"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在终端中显示 Ctrl+K 提示"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在终端中显示 Ctrl+K 提示"
+        }
+      ]
+    },
+    {
+      "key": "Show a view zone when the preview box is clipped",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "当预览框被裁剪时显示视图区域"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "预览框被裁剪时显示视图区域"
+        }
+      ]
+    },
+    {
+      "key": "Show inline diff decorations in the editor instead of only showing changes in the review panel",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在编辑器中显示内联差异装饰，而不是仅在审查面板中显示更改"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在编辑器中显示内联差异装饰，而不仅在审查面板中显示更改"
+        }
+      ]
+    },
+    {
+      "key": "Show inline diff review controls in top level breadcrumbs or floating island",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "在顶层面包屑或浮动岛中显示内联差异审查控件"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在顶级面包屑导航或浮动岛中显示内联差异审查控件"
+        }
+      ]
+    },
+    {
+      "key": "Show rotating tips on the empty screen",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "在空白界面显示轮换提示"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在空白屏幕上显示轮播提示"
+        }
+      ]
+    },
+    {
+      "key": "Show system notifications when Agent completes or needs attention",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "当 Agent 完成或需要关注时显示系统通知"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "智能体完成任务或需要注意时显示系统通知"
+        }
+      ]
+    },
+    {
+      "key": "Show terminal commands in compact view by default",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "默认以精简视图显示终端命令"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "默认以紧凑视图显示终端命令"
+        }
+      ]
+    },
+    {
+      "key": "Skills are specialized capabilities that help the agent accomplish specific tasks. Skills will be invoked by the agent when relevant or can be triggered manually with / in chat.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "技能是帮助Agent完成特定任务的专门能力。Agent将在相关时调用技能，或可通过聊天中的/手动触发。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "技能是帮助智能体完成特定任务的专业能力。智能体会在相关时自动调用技能，也可在聊天中通过 / 手动触发。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "技能是帮助智能体完成特定任务的专门能力。智能体会在相关时调用技能，也可以在聊天中使用 / 手动触发。"
+        }
+      ]
+    },
+    {
+      "key": "Skills help the agent accomplish specific tasks",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "技能帮助Agent完成特定任务"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "技能帮助智能体完成特定任务"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "技能帮助智能体完成特定任务"
+        }
+      ]
+    },
+    {
+      "key": "Skip approval dialog; Agent may run web searches automatically",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "跳过批准对话框；代理可以自动运行网络搜索"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "跳过批准对话；智能体可自动运行网络搜索"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "跳过审批对话框；Agent 可自动执行网络搜索"
+        }
+      ]
+    },
+    {
+      "key": "Start Agent Review on Commit",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在提交时启动代理审查"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "代码提交时启动智能体审查"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "提交时启动 Agent 审查"
+        }
+      ]
+    },
+    {
+      "key": "Stop & send right away",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "停止并立即发送"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "立即停止并发送"
+        }
+      ]
+    },
+    {
+      "key": "Subagents",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "子代理"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "子智能体"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "子智能体"
+        }
+      ]
+    },
+    {
+      "key": "Submit Keywords",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "提交关键词"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "提交关键字"
+        }
+      ]
+    },
+    {
+      "key": "Submit with",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "提交方式"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用"
+        }
+      ]
+    },
+    {
+      "key": "Submit with Ctrl + Enter",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "使用Ctrl+Enter提交"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用 Ctrl + Enter 提交"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "使用 Ctrl + Enter 提交"
+        }
+      ]
+    },
+    {
+      "key": "Suggest edits like new lines and indentation that modify whitespace only",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "建议仅修改空白的编辑，如新行和缩进"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "仅建议修改空白的编辑，如换行和缩进"
+        }
+      ]
+    },
+    {
+      "key": "Suggested",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "建议"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "推荐"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "推荐"
+        }
+      ]
+    },
+    {
+      "key": "Suggestions While Commenting",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "评论时建议"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "注释时建议"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "注释时的建议"
+        }
+      ]
+    },
+    {
+      "key": "Switch between Agent and Editor default layouts",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "在智能体与编辑器默认布局之间切换"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在智能体和编辑器默认布局之间切换"
+        }
+      ]
+    },
+    {
+      "key": "System Tray Icon",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "系统托盘图标"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "系统任务栏图标"
+        }
+      ]
+    },
+    {
+      "key": "Tab",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "选项卡"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "Tab 补全"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "代码补全"
+        }
+      ]
+    },
+    {
+      "key": "Team Plan",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "团队计划"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "团队版"
+        }
+      ]
+    },
+    {
+      "key": "Team-Level Repository Control",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "团队级仓库控制"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "团队级代码库控制"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "团队级别仓库控制"
+        }
+      ]
+    },
+    {
+      "key": "Text Size",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "文本大小"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "文字大小"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "文字大小"
+        }
+      ]
+    },
+    {
+      "key": "The Explore subagent is used to do initial research for the main agent",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "探索子智能体用于为主智能体进行初步调研"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "Explore 子智能体用于为主智能体做初步调研"
+        }
+      ]
+    },
+    {
+      "key": "Themed Diff Backgrounds",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "主题差异背景"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "主题化差异背景"
+        }
+      ]
+    },
+    {
+      "key": "These domains must be accessible for Cursor to function. Add them to your firewall or proxy allowlist.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "这些域必须可访问，Cursor 才能正常运行。请将它们添加到您的防火墙或代理白名单中。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "必须可访问这些域名，Cursor 才能正常工作。请将它们添加到您的防火墙或代理白名单中。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "这些域名必须可访问才能让 Cursor 正常工作。请将它们添加到防火墙或代理白名单中。"
+        }
+      ]
+    },
+    {
+      "key": "This track will silently download and install updates without prompting whenever Cursor is closed.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "此通道将在 Cursor 关闭时静默下载并安装更新，不会提示您。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "此通道将在 Cursor 关闭时静默下载并安装更新，不会提示。"
+        }
+      ]
+    },
+    {
+      "key": "Tools & MCP",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "工具和 MCP"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "工具与 MCP"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "工具与 MCP"
+        }
+      ]
+    },
+    {
+      "key": "Total",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "总计"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "合计"
+        }
+      ]
+    },
+    {
+      "key": "Update Access",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "更新访问"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "更新通道"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "更新通道"
+        }
+      ]
+    },
+    {
+      "key": "Usage Summary",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "使用摘要"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "用量摘要"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "用量摘要"
+        }
+      ]
+    },
+    {
+      "key": "Use Allowlist",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "使用允许列表"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用白名单"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "使用白名单"
+        }
+      ]
+    },
+    {
+      "key": "Use Rules to guide agent behavior, like enforcing best practices or coding standards. Rules can be applied always, by file path, or manually.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "使用规则指导Agent行为，例如强制执行最佳实践或编码标准。规则可以始终、按文件路径或手动应用。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用规则引导智能体行为，例如强制执行最佳实践或编码标准。规则可以始终应用、按文件路径应用或手动应用。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "使用规则来指导智能体行为，如强制执行最佳实践或编码标准。规则可以始终应用、按文件路径应用或手动应用。"
+        }
+      ]
+    },
+    {
+      "key": "Use a preview box instead of streaming responses directly into the shell",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "使用预览框而不是将响应直接流式传输到shell中"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "使用预览框而不是将响应直接流式传输到 shell 中"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "使用预览框而不是将响应直接流式传输到 Shell 中"
+        }
+      ]
+    },
+    {
+      "key": "Use the legacy terminal tool in agent mode, for use on systems with unsupported shell configurations",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "在代理模式下使用遗留终端工具，用于具有不受支持的shell配置的系统"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "在智能体模式下使用旧版终端工具，适用于 shell 配置不受支持的系统"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在智能体模式下使用旧版终端工具，适用于不支持的 Shell 配置系统"
+        }
+      ]
+    },
+    {
+      "key": "Use themed background colors for inline code diffs",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "为内联代码差异使用主题背景颜色"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "为内联代码差异使用主题背景色"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "为内联代码差异使用主题化背景颜色"
+        }
+      ]
+    },
+    {
+      "key": "Use with caution. Skip symlinks during .cursorignore file discovery. Only enable if your repository has many symlinks and all .cursorignore files are reachable without them. Changing this setting will require a restart of Cursor.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "谨慎使用。在发现.cursorignore文件时跳过符号链接。仅当您的存储库有许多符号链接且所有.cursorignore文件在没有它们的情况下可访问时才启用。更改此设置需要重新启动Cursor。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "谨慎使用。在发现 .cursorignore 文件时跳过符号链接。仅当您的仓库存有许多符号链接，且没有符号链接也能访问所有 .cursorignore 文件时才启用。更改此设置需要重启 Cursor。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "谨慎使用。在 .cursorignore 文件发现期间跳过符号链接。仅在您的仓库有很多符号链接且所有 .cursorignore 文件无需它们即可访问时启用。更改此设置需要重启 Cursor。"
+        }
+      ]
+    },
+    {
+      "key": "View",
+      "type": "cross-source",
+      "chosen": {
+        "source": "lsh2253823857/cursor-i18n-tool dict.js",
+        "value": "查看"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "视图"
+        }
+      ]
+    },
+    {
+      "key": "View included files.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "查看包含的文件。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "查看已包含的文件。"
+        }
+      ]
+    },
+    {
+      "key": "Web Fetch Tool",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "网页获取工具"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "网页抓取工具"
+        }
+      ]
+    },
+    {
+      "key": "Web Search Tool",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "网页搜索工具"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "网络搜索工具"
+        }
+      ]
+    },
+    {
+      "key": "When all editors are closed, hide the editor area and maximize chat",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "当所有编辑器关闭时，隐藏编辑器区域并最大化聊天"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "关闭所有编辑器时，隐藏编辑器并最大化聊天窗口"
+        }
+      ]
+    },
+    {
+      "key": "When enabled,",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "启用时，"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "启用后，"
+        }
+      ]
+    },
+    {
+      "key": "When enabled, Ctrl + Enter submits chat and Enter inserts a newline",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "启用后，Ctrl+Enter提交聊天，Enter插入换行"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "启用后，Ctrl + Enter 提交聊天，Enter 插入换行"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "启用后，Ctrl + Enter 提交对话，Enter 插入换行"
+        }
+      ]
+    },
+    {
+      "key": "When to show the usage summary at the bottom of the chat pane",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "何时在聊天面板底部显示使用摘要"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "何时在聊天面板底部显示用量摘要"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "何时在聊天面板底部显示用量摘要"
+        }
+      ]
+    },
+    {
+      "key": "Where to open new agents",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "新Agent的打开位置"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "新智能体的打开位置"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "新建智能体的打开位置"
+        }
+      ]
+    },
+    {
+      "key": "Work with Cloud Agents from Slack",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "通过 Slack 使用 Cloud Agents"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "通过 Slack 使用云端智能体"
+        }
+      ]
+    },
+    {
+      "key": "You can put in your OpenAI key to use OpenAI models at cost.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "您可以输入 OpenAI 密钥以按成本使用 OpenAI 模型。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "您可以填写自己的 OpenAI key 来按成本价使用 OpenAI 模型。"
+        }
+      ]
+    },
+    {
+      "key": "You haven't marked any dialogs as \"Don't ask again\". Any hidden dialogs will appear here to manage.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "您尚未将任何对话框标记为“不再询问”。任何隐藏的对话框都会出现在此处进行管理。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "您尚未将任何弹窗标记为“不再询问”。任何隐藏的弹窗都将显示在此处以供管理。"
+        }
+      ]
+    },
+    {
+      "key": "You haven’t marked any dialogs as \"Don’t ask again\". Any hidden dialogs will appear here to manage.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "您尚未将任何对话框标记为\"不再询问\"。任何隐藏的对话框都将出现在此处进行管理。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "您尚未将任何弹窗标记为“不再询问”。任何隐藏的弹窗都将显示在此处以供管理。"
+        }
+      ]
+    },
+    {
+      "key": "You're over your current usage limit and your requests are being processed with Auto in the slow queue.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "您已超过当前使用限制，您的请求正在慢速队列中自动处理。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "您已超出当前配置的使用量限制，您的请求正以临时排队方式在慢速队列中处理。"
+        }
+      ]
+    },
+    {
+      "key": "Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "您的代码数据不会被训练或用于改进产品。代码可能会被存储以提供诸如后台代理之类的功能。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "您的代码数据不会被用于训练或改进产品。代码可能会被存储以提供后台智能体等功能。"
+        },
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "您的代码数据不会被用于训练或用于改进产品。代码可能会存储以提供后台 Agent 等功能。"
+        }
+      ]
+    },
+    {
+      "key": "accept the next word of a suggestion",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "接受建议的下一个单词"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "接受建议的下一个词"
+        }
+      ]
+    },
+    {
+      "key": "inserts a newline",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "插入换行符"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "插入换行"
+        }
+      ]
+    },
+    {
+      "key": "team admin.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "value": "团队管理员。"
+      },
+      "rejected": [
+        {
+          "source": "lsh2253823857/cursor-i18n-tool dict.js",
+          "value": "团队管理员控制。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cursor-zh",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cursor-only Simplified Chinese localization with a versioned dictionary and one-click restore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javey-Li/cursor-zh.git"
+  },
+  "homepage": "https://github.com/Javey-Li/cursor-zh",
+  "bugs": {
+    "url": "https://github.com/Javey-Li/cursor-zh/issues"
+  },
+  "keywords": [
+    "cursor",
+    "localization",
+    "chinese",
+    "i18n",
+    "macos"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "cursor-zh": "cli/index.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "validate": "node tools/validate-dictionary.js",
+    "build:dict": "python3 tools/build_dictionary.py"
+  }
+}
