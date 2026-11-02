@@ -208,7 +208,7 @@ Two shapes are accepted, both verified against the engine:
 native `regex` map; `g`/`y` flags are stripped because rules are probed with `test()`.
 `$1`-style back-references in `replacement` work as in `String.replace`.
 
-Measured with `dictionaries/zh-CN.json`: 244 regex rules and 3054 entries load correctly.
+Measured with `dictionaries/zh-CN.json`: 244 regex rules and 3082 entries load correctly.
 
 > Cost note: every distinct text node is tested against all regex rules once. At 244 rules
 > this is noticeably heavier than upstream's 5 — only unmatched strings pay it, and results

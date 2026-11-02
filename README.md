@@ -76,7 +76,7 @@ node cli/index.js install
 
 ## 覆盖情况
 
-当前词典有 3054 条唯一词条和 244 条正则，来源和每条冲突都记在 `dictionaries/manifest.json`、`dictionaries/conflicts.json`。
+当前词典有 3082 条唯一词条和 244 条正则，来源和每条冲突都记在 `dictionaries/manifest.json`、`dictionaries/conflicts.json`。
 
 已经覆盖的范围包括 Cursor 设置、Agent / Composer、自动化、远程控制、浏览器/网络、用量统计、PR 审查和安全提示。下面这些还可能是英文：
 

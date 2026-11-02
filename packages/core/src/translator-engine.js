@@ -655,7 +655,7 @@ function findInNestedDict(dict, key) {
 }
 
 function getTranslation(text) {
-  const t = text.trim();
+  const t = text.replace(/[\u200B-\u200D\uFEFF]/g, '').trim().replace(/\s+/g, ' ');
   if (!t || t.length < 2) return null;
   if (isFileNameLike(t)) return null;
   const protectedInfo = protectTextForTranslation(t);

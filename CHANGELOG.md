@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.2 — 2026-11-03
+
+- Translate model speed labels (`High Fast`, `Low Fast`, `Medium Fast`), the `IDE` button, `Prompt` label and the chat bottom hints.
+- Add translations for all slash-command descriptions found in Cursor 3.27 (`/ask`, `/babysit`, `/create-*`, `/goal`, `/model`, `/plan`, `/review`, `/shell`, `/simplify`, etc.).
+- Normalize zero-width characters before dictionary lookup (fixes model labels with invisible suffixes).
+- Remove `IDE` and `Prompt` from the protected-term list so UI labels can be translated.
+- Dictionary is now 3,082 unique entries and 244 patterns.
+
 ## 0.3.1 — 2026-11-03
 
 - Translate attribute values that contain line breaks, such as `Split Editor Right\n[⌥] Split Editor Down`.

@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "locale": "zh-CN",
   "generatedAt": "2026-11-03",
-  "total": 241,
+  "total": 242,
   "byPair": {
     "mit>mit": 154,
     "mit>seed": 188,
-    "override>seed": 1,
+    "override>seed": 2,
     "own>mit": 1,
     "seed>seed": 4
   },
@@ -2174,6 +2174,20 @@
         {
           "source": "lsh2253823857/cursor-i18n-tool dict.js",
           "value": "使用多模型功能需要 Git 仓库。"
+        }
+      ]
+    },
+    {
+      "key": "New",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "新"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "新建"
         }
       ]
     },

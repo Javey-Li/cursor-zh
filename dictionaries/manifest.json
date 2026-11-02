@@ -5,9 +5,9 @@
   "cursorVersions": [
     "3.27.x"
   ],
-  "totalUniqueEntries": 3054,
+  "totalUniqueEntries": 3082,
   "patternCount": 244,
-  "conflictCount": 241,
+  "conflictCount": 242,
   "patternConflictCount": 0,
   "sources": [
     {
@@ -15,13 +15,13 @@
       "url": "https://github.com/Javey-Li/cursor-zh/blob/main/dictionaries/overrides.json",
       "license": "MIT",
       "role": "override",
-      "sha256": "b90811e0283c79f2b00d2beb47904cb27ed6fe73b709eaad727350e419114a71",
-      "rawEntries": 75,
-      "usableEntries": 75,
+      "sha256": "be90fed8bc5371d2b3cde56db7f439bf714b7f49d91cfed8b096a381283cbc57",
+      "rawEntries": 104,
+      "usableEntries": 104,
       "filteredEntries": 0,
-      "uniqueEntries": 75,
+      "uniqueEntries": 104,
       "duplicateKeys": 0,
-      "contributedEntries": 75,
+      "contributedEntries": 104,
       "patterns": 0
     },
     {
@@ -35,7 +35,7 @@
       "filteredEntries": 27,
       "uniqueEntries": 2570,
       "duplicateKeys": 113,
-      "contributedEntries": 2115,
+      "contributedEntries": 2114,
       "patterns": 239
     },
     {
@@ -82,11 +82,11 @@
     }
   ],
   "conflicts": {
-    "total": 241,
+    "total": 242,
     "byPair": {
       "mit>mit": 154,
       "mit>seed": 188,
-      "override>seed": 1,
+      "override>seed": 2,
       "own>mit": 1,
       "seed>seed": 4
     },
