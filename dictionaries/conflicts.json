@@ -2,11 +2,13 @@
   "schemaVersion": 1,
   "locale": "zh-CN",
   "generatedAt": "2026-11-03",
-  "total": 242,
+  "total": 255,
   "byPair": {
-    "mit>mit": 154,
-    "mit>seed": 188,
-    "override>seed": 2,
+    "mit>mit": 152,
+    "mit>seed": 187,
+    "override>mit": 2,
+    "override>own": 1,
+    "override>seed": 14,
     "own>mit": 1,
     "seed>seed": 4
   },
@@ -68,6 +70,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "在此添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置项目专用工具"
+        }
+      ]
+    },
+    {
+      "key": "Add a follow-up",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "添加后续消息"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "添加后续问题"
         }
       ]
     },
@@ -332,6 +348,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "每次询问"
+        }
+      ]
+    },
+    {
+      "key": "Ask follow-ups in the worktree",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "在工作树中继续提问"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "在工作树中继续追问"
         }
       ]
     },
@@ -1120,6 +1150,20 @@
       ]
     },
     {
+      "key": "Copy Agent Deeplink",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "复制智能体链接"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "复制智能体深度链接"
+        }
+      ]
+    },
+    {
       "key": "Crawl and index custom resources and developer docs",
       "type": "cross-source",
       "chosen": {
@@ -1365,7 +1409,7 @@
       "key": "Docs",
       "type": "cross-source",
       "chosen": {
-        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+        "source": "cursor-zh high-priority overrides",
         "value": "文档"
       },
       "rejected": [
@@ -1838,6 +1882,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "索引与文档"
+        }
+      ]
+    },
+    {
+      "key": "Inherit from parent",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "从父级继承"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "继承父级"
         }
       ]
     },
@@ -2390,6 +2448,48 @@
       ]
     },
     {
+      "key": "No models found",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "没有找到模型"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "未找到模型"
+        }
+      ]
+    },
+    {
+      "key": "No remote machines yet.",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "还没有远程机器。"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "暂无远程计算机。"
+        }
+      ]
+    },
+    {
+      "key": "No results found",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "没有找到结果"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "未找到结果"
+        }
+      ]
+    },
+    {
       "key": "Off",
       "type": "cross-source",
       "chosen": {
@@ -2780,6 +2880,20 @@
       ]
     },
     {
+      "key": "Reset to default",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "重置为默认"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "恢复默认"
+        }
+      ]
+    },
+    {
       "key": "Review PRs, fix CI, address comments, and more directly from Cursor",
       "type": "within-source",
       "chosen": {
@@ -3100,6 +3214,20 @@
       ]
     },
     {
+      "key": "Steer a running agent without stopping it - set New Messages to Send Immediately in your Agents settings",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "无需停止即可引导运行中的智能体，在智能体设置中将「新消息」设为「立即发送」"
+      },
+      "rejected": [
+        {
+          "source": "cursor-zh Cursor 3.27 additions (own sections + 5 patterns)",
+          "value": "无需停止即可引导运行中的智能体——在「智能体」设置中将「新消息」设为「立即发送」"
+        }
+      ]
+    },
+    {
       "key": "Stop & send right away",
       "type": "cross-source",
       "chosen": {
@@ -3117,17 +3245,13 @@
       "key": "Subagents",
       "type": "cross-source",
       "chosen": {
-        "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
-        "value": "子代理"
+        "source": "cursor-zh high-priority overrides",
+        "value": "子智能体"
       },
       "rejected": [
         {
-          "source": "lsh2253823857/cursor-i18n-tool dict.js",
-          "value": "子智能体"
-        },
-        {
-          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
-          "value": "子智能体"
+          "source": "Uncle-Gao/Live-Translator-Hub cursor dictionary",
+          "value": "子代理"
         }
       ]
     },
@@ -3242,6 +3366,20 @@
       ]
     },
     {
+      "key": "Switch to Auto",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "切换到自动模式"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "切换到自动"
+        }
+      ]
+    },
+    {
       "key": "System Tray Icon",
       "type": "cross-source",
       "chosen": {
@@ -3302,6 +3440,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "团队级别仓库控制"
+        }
+      ]
+    },
+    {
+      "key": "Tell Cursor to use subagents to break down tasks, do work in parallel, and preserve context",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "让 Cursor 使用子智能体拆分任务、并行处理并保留上下文"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "让 Cursor 使用子智能体拆分任务、并行处理工作并保留上下文"
         }
       ]
     },
@@ -3380,6 +3532,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "此通道将在 Cursor 关闭时静默下载并安装更新，不会提示。"
+        }
+      ]
+    },
+    {
+      "key": "Toggle Search in Files",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "在文件中搜索"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "切换在文件中搜索"
         }
       ]
     },
@@ -3694,6 +3860,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "新建智能体的打开位置"
+        }
+      ]
+    },
+    {
+      "key": "Work on explicitly added files (no tools)",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "处理明确添加的文件（不使用工具）"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "处理已明确添加的文件（无工具）"
         }
       ]
     },

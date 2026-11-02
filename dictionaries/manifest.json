@@ -5,24 +5,24 @@
   "cursorVersions": [
     "3.27.x"
   ],
-  "totalUniqueEntries": 3082,
-  "patternCount": 244,
-  "conflictCount": 242,
-  "patternConflictCount": 0,
+  "totalUniqueEntries": 3254,
+  "patternCount": 250,
+  "conflictCount": 255,
+  "patternConflictCount": 1,
   "sources": [
     {
       "name": "cursor-zh high-priority overrides",
       "url": "https://github.com/Javey-Li/cursor-zh/blob/main/dictionaries/overrides.json",
       "license": "MIT",
       "role": "override",
-      "sha256": "be90fed8bc5371d2b3cde56db7f439bf714b7f49d91cfed8b096a381283cbc57",
-      "rawEntries": 104,
-      "usableEntries": 104,
+      "sha256": "936ca3b80160d469ae6da510f2bc074f383bd37187c355d0cc094b2bc67b688b",
+      "rawEntries": 337,
+      "usableEntries": 337,
       "filteredEntries": 0,
-      "uniqueEntries": 104,
+      "uniqueEntries": 337,
       "duplicateKeys": 0,
-      "contributedEntries": 104,
-      "patterns": 0
+      "contributedEntries": 337,
+      "patterns": 7
     },
     {
       "name": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
@@ -35,7 +35,7 @@
       "filteredEntries": 27,
       "uniqueEntries": 2570,
       "duplicateKeys": 113,
-      "contributedEntries": 2114,
+      "contributedEntries": 2068,
       "patterns": 239
     },
     {
@@ -49,7 +49,7 @@
       "filteredEntries": 1,
       "uniqueEntries": 310,
       "duplicateKeys": 0,
-      "contributedEntries": 304,
+      "contributedEntries": 300,
       "patterns": 5
     },
     {
@@ -63,7 +63,7 @@
       "filteredEntries": 6,
       "uniqueEntries": 360,
       "duplicateKeys": 0,
-      "contributedEntries": 357,
+      "contributedEntries": 349,
       "patterns": 0
     },
     {
@@ -77,16 +77,18 @@
       "filteredEntries": 1,
       "uniqueEntries": 493,
       "duplicateKeys": 11,
-      "contributedEntries": 203,
+      "contributedEntries": 200,
       "patterns": 0
     }
   ],
   "conflicts": {
-    "total": 242,
+    "total": 255,
     "byPair": {
-      "mit>mit": 154,
-      "mit>seed": 188,
-      "override>seed": 2,
+      "mit>mit": 152,
+      "mit>seed": 187,
+      "override>mit": 2,
+      "override>own": 1,
+      "override>seed": 14,
       "own>mit": 1,
       "seed>seed": 4
     },
@@ -122,5 +124,21 @@
       "license": "MIT"
     }
   ],
-  "patternConflicts": []
+  "patternConflicts": [
+    {
+      "regex": "^Show (\\d+) more$",
+      "chosen": {
+        "source": "own",
+        "replacement": "再显示 $1 个",
+        "flags": "i"
+      },
+      "rejected": [
+        {
+          "source": "seed",
+          "replacement": "再显示 $1 条",
+          "flags": "i"
+        }
+      ]
+    }
+  ]
 }

@@ -44,6 +44,7 @@ Each modified file carries the header line
    - Added `config.codesign`, `config.dictPath`, `config.dictDir`
    - `getPaths()` no longer throws `ENOENT` on a stale `appPath`
    - `install()` warns when a foreign `*Localization*.js` is already injected
+   - Removed `.pane-header.expanded` from `DEFAULT_SKIPS` so VS Code view headers (Outline, Timeline, Explorer) can be translated
    - Extracted the duplicated macOS `xattr`/`codesign` block into `fixMacBundleSignature()`
 2. `packages/core/src/translator-engine.js`
    - Removed `callAnthropic()` and its `apiType === 'anthropic'` dispatch branch
@@ -58,8 +59,8 @@ Each modified file carries the header line
    - Removed `dependencies: { "@live-translator/core": "*" }`
    - Added `"private": true` and `"files"`
 
-`packages/core/src/protection-defaults.json` was modified to remove `IDE` and `Prompt`
-from the protected-term list so those UI labels can be translated. `Claude`,
+`packages/core/src/protection-defaults.json` was modified to remove `IDE`, `Prompt`,
+`Agent` and `Agents` from the protected-term list so those UI labels can be translated. `Claude`,
 `Anthropic`, and Claude model-name patterns remain in the protected-terms data. These
 are translation-protection entries for strings that Cursor's own UI displays (model and
 provider names) — not Claude application support — so they are intentionally kept:

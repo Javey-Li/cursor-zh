@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-11-03
+
+- Full pass over Cursor 3.27 UI strings: slash commands, bottom tips, model picker labels, IDE sidebar, Outline/Timeline headers, extension view, search boxes and dynamic counters.
+- Keep the `IDE` button as `IDE` instead of renaming it to 编辑器.
+- Translate `Agent` / `Agents` labels to 智能体.
+- Allow pane headers to be translated (removed `.pane-header.expanded` from the default skip list).
+- Add override patterns for dynamic strings such as `Explorer Section: ...`, `Show N more`, `Skip step N of M` and `N extensions found`.
+- Dictionary is now 3,254 unique entries and 250 patterns.
+
 ## 0.3.2 — 2026-11-03
 
 - Translate model speed labels (`High Fast`, `Low Fast`, `Medium Fast`), the `IDE` button, `Prompt` label and the chat bottom hints.

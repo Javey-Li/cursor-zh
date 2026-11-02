@@ -563,15 +563,25 @@ def build() -> int:
         role="override",
         sha256=sha256_of(OVERRIDES_FILE) if OVERRIDES_FILE.is_file() else None,
     )
+    override_patterns: list[dict] = []
     if OVERRIDES_FILE.is_file():
         override_data = json.loads(read_text(OVERRIDES_FILE))
         override.add_pairs((override_data.get("entries") or {}).items())
+        for item in override_data.get("patterns") or []:
+            override_patterns.append(
+                {
+                    "regex": item.get("regex", ""),
+                    "flags": item.get("flags", ""),
+                    "replacement": item.get("replacement", ""),
+                }
+            )
+        override.pattern_count = len(override_patterns)
 
     providers = [override, seed, own, *mit_providers]
 
     # patterns
     seed_patterns, own_patterns = load_upstream_patterns(pattern_path)
-    merged_patterns, pattern_conflicts = merge_patterns(own_patterns, seed_patterns)
+    merged_patterns, pattern_conflicts = merge_patterns(override_patterns + own_patterns, seed_patterns)
     seed.pattern_count = len(seed_patterns)
     own.pattern_count = len(own_patterns)
 

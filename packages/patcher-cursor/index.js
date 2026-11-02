@@ -172,7 +172,7 @@ codesign --force --deep --sign - "${appBundle}"`;
 
 const DEFAULT_SKIPS = [
     ".monaco-breadcrumbs", ".view-lines.monaco-mouse-cursor-text", ".monaco-list-row",
-    ".pane-header.expanded", ".xterm-link-layer", ".conversations",
+    ".xterm-link-layer", ".conversations",
     ".aislash-editor-input", ".composer-file-list-item", ".agent-sidebar-cell-content-wrapper"
 ];
 

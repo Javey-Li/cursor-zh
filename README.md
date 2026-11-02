@@ -76,7 +76,7 @@ node cli/index.js install
 
 ## 覆盖情况
 
-当前词典有 3082 条唯一词条和 244 条正则，来源和每条冲突都记在 `dictionaries/manifest.json`、`dictionaries/conflicts.json`。
+当前词典有 3254 条唯一词条和 250 条正则，来源和每条冲突都记在 `dictionaries/manifest.json`、`dictionaries/conflicts.json`。
 
 已经覆盖的范围包括 Cursor 设置、Agent / Composer、自动化、远程控制、浏览器/网络、用量统计、PR 审查和安全提示。下面这些还可能是英文：
 
@@ -118,8 +118,9 @@ cursor-zh restore
 - 修改后应用不再有 Anysphere 的原始签名，默认会打 ad-hoc 签名。部分企业 MDM 或安全软件会拦截这种签名，遇到就 `restore` 或重装。
 - 版本适配靠 Cursor 的 `product.json`，没有维护完整的版本兼容表。Cursor 改了 workbench 的打包方式时，注入可能直接失效。
 - Windows 脚本还没完整测试。
-- 插件市场里的插件名称和简介来自 Cursor 的在线目录，是远程内容；工具只翻译界面文案，不翻译这些动态条目。
+- 插件市场里的插件名称和简介来自 Cursor 的在线目录，是远程内容；工具只翻译界面文案，不翻译这些动态条目。扩展、技能、联系人的名称和描述同理。
 - 自动化页面的“无法加载自动化”在未打补丁的 Cursor 上也能复现，属于 Cursor 服务端或账号状态，不是本地汉化造成的。
+- `IDE` 按钮保留 `IDE` 缩写，没有改成“编辑器”。
 - 目标是常用界面可用中文，不保证所有角落都翻译。
 
 ## 常见问题
@@ -153,6 +154,7 @@ Cursor 里还留着旧工具的注入，比如 `Cursor_Localization.js`。先用
 | 词典种子 | 社区项目 `vibepm666/cursor-localization-zh` 的英文→中文对照 | 上游没有 LICENSE |
 | 部分词典条目 | [Uncle-Gao/Live-Translator-Hub](https://github.com/Uncle-Gao/Live-Translator-Hub)、[lsh2253823857/cursor-i18n-tool](https://github.com/lsh2253823857/cursor-i18n-tool) | MIT |
 | 311 条新增词条和 5 条正则 | 本项目 | MIT |
+| `dictionaries/overrides.json` 里的补充词条和动态正则 | 本项目 | MIT |
 | VS Code 中文语言包 | Microsoft | 通过 Cursor 扩展 CLI 安装，不随仓库分发 |
 
 上游 `vibepm666/cursor-localization-zh` 没有提供 LICENSE。这里只使用它的英文→中文对照作为种子，代码没有从那个项目复制；补丁引擎来自 Uncle-Gao 的 MIT 项目。种子、MIT 词典和新增条目合并后放在 `dictionaries/zh-CN.json`，每条来源和冲突记录在 `manifest.json`、`conflicts.json`。如果上游作者不希望这些数据被使用，开个 Issue，我们会把对应部分移除。

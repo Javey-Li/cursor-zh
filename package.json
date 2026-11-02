@@ -1,6 +1,6 @@
 {
   "name": "cursor-zh",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "private": true,
   "description": "Cursor-only Simplified Chinese localization with a versioned dictionary and one-click restore",
   "license": "MIT",
