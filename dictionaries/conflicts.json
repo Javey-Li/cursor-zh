@@ -2,10 +2,11 @@
   "schemaVersion": 1,
   "locale": "zh-CN",
   "generatedAt": "2026-11-03",
-  "total": 240,
+  "total": 241,
   "byPair": {
     "mit>mit": 154,
     "mit>seed": 188,
+    "override>seed": 1,
     "own>mit": 1,
     "seed>seed": 4
   },
@@ -2637,6 +2638,20 @@
         {
           "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
           "value": "专业版计划"
+        }
+      ]
+    },
+    {
+      "key": "Prompt",
+      "type": "cross-source",
+      "chosen": {
+        "source": "cursor-zh high-priority overrides",
+        "value": "提示词"
+      },
+      "rejected": [
+        {
+          "source": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
+          "value": "提示"
         }
       ]
     },

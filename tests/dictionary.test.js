@@ -74,7 +74,7 @@ test('the five cursor-zh specific patterns are present', () => {
 });
 
 test('sources carry attribution metadata and add up to the entry count', () => {
-  const roles = new Set(['seed', 'mit', 'own']);
+  const roles = new Set(['seed', 'mit', 'own', 'override']);
   assert.ok(Array.isArray(dictionary.sources) && dictionary.sources.length >= 3);
   let contributed = 0;
   for (const source of dictionary.sources) {

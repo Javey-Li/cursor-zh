@@ -57,6 +57,9 @@ UPSTREAM_DIR = Path(
     )
 )
 OUT_DIR = Path(os.environ.get("CURSOR_ZH_DICTIONARY_DIR", REPO_ROOT / "dictionaries"))
+OVERRIDES_FILE = Path(
+    os.environ.get("CURSOR_ZH_OVERRIDES_PATH", REPO_ROOT / "dictionaries" / "overrides.json")
+)
 GENERATED_AT = os.environ.get("CURSOR_ZH_GENERATED_AT", "2026-11-03")
 CURSOR_VERSIONS = [
     v.strip()
@@ -81,7 +84,7 @@ OWN_PATTERN_REGEXES = (
     r"^(\d+) days? left$",
 )
 
-PRIORITY = {"own": 3, "mit": 2, "seed": 1}
+PRIORITY = {"override": 4, "own": 3, "mit": 2, "seed": 1}
 
 UPSTREAM_REPO = "https://github.com/vibepm666/cursor-localization-zh"
 OWN_REPO = "https://github.com/Javey-Li/cursor-zh"
@@ -553,7 +556,18 @@ def build() -> int:
         provider.add_pairs(pairs)
         mit_providers.append(provider)
 
-    providers = [seed, own, *mit_providers]
+    override = Provider(
+        name="cursor-zh high-priority overrides",
+        url=f"{OWN_REPO}/blob/main/dictionaries/overrides.json",
+        license="MIT",
+        role="override",
+        sha256=sha256_of(OVERRIDES_FILE) if OVERRIDES_FILE.is_file() else None,
+    )
+    if OVERRIDES_FILE.is_file():
+        override_data = json.loads(read_text(OVERRIDES_FILE))
+        override.add_pairs((override_data.get("entries") or {}).items())
+
+    providers = [override, seed, own, *mit_providers]
 
     # patterns
     seed_patterns, own_patterns = load_upstream_patterns(pattern_path)

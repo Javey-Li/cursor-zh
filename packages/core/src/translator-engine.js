@@ -30,6 +30,7 @@ console.log('[I18N] Engine loaded, CONFIG.apiType:', CONFIG.apiType, 'features:'
 
 const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'CODE', 'PRE', 'KBD', 'SAMP']);
 const SKIP_TITLES = CONFIG.skip?.titles || [];
+const TRANSLATABLE_ATTRS = ['title', 'aria-label', 'placeholder', 'data-placeholder', 'aria-placeholder', 'alt'];
 const SKIP_URLS = CONFIG.skip?.urls || [];
 const SKIP_SELECTORS = CONFIG.skip?.selectors || [];
 const panelBypassSelectors = new Set();
@@ -743,15 +744,26 @@ function processNode(node, skipExclusion) {
   }
 }
 
-function processTitle(el, skipExclusion) {
+function processAttribute(el, attr, skipExclusion) {
   if (!skipExclusion && isExcluded(el)) return;
-  const title = el.getAttribute('title');
-  if (!title) return;
-  const target = getTranslation(title.trim());
-  if (target && title.includes(title.trim())) {
+  const value = el.getAttribute(attr);
+  if (!value) return;
+  const trimmed = value.trim();
+  const target = getTranslation(trimmed);
+  if (target && value.includes(trimmed)) {
     el.classList.add('i18n-debug-highlight');
-    el.setAttribute('data-i18n-original-title', title);
-    el.setAttribute('title', title.replace(title.trim(), target));
+    el.setAttribute('data-i18n-original-' + attr, value);
+    el.setAttribute(attr, value.replace(trimmed, target));
+  }
+}
+
+function processTitle(el, skipExclusion) {
+  processAttribute(el, 'title', skipExclusion);
+}
+
+function processElementAttributes(el, skipExclusion) {
+  for (const attr of TRANSLATABLE_ATTRS) {
+    if (el.hasAttribute(attr)) processAttribute(el, attr, skipExclusion);
   }
 }
 
@@ -764,8 +776,13 @@ function walkAndTranslate(root, skipExclusion) {
   if (root.nodeType === Node.TEXT_NODE) {
     processNode(root, skipExclusion);
   } else if (root.nodeType === Node.ELEMENT_NODE) {
+    processElementAttributes(root, skipExclusion);
     if (SKIP_TAGS.has(root.tagName)) return;
-    if (root.hasAttribute('title')) processTitle(root, skipExclusion);
+    const elementWalker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT);
+    let element;
+    while ((element = elementWalker.nextNode())) {
+      processElementAttributes(element, skipExclusion);
+    }
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, (n) => {
       return (n.parentElement && SKIP_TAGS.has(n.parentElement.tagName)) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
     });
@@ -792,7 +809,7 @@ const observer = new MutationObserver((mutations) => {
     } else if (m.type === 'characterData') {
       mutationBuffer.push(m.target);
       hasAct = true;
-    } else if (m.type === 'attributes' && m.attributeName === 'title') {
+    } else if (m.type === 'attributes' && TRANSLATABLE_ATTRS.includes(m.attributeName)) {
       mutationBuffer.push(m.target);
       hasAct = true;
     }
@@ -895,14 +912,24 @@ function restoreElementText(el) {
   }
 }
 
+function restoreElementAttributes(el) {
+  for (const attr of TRANSLATABLE_ATTRS) {
+    const key = 'data-i18n-original-' + attr;
+    if (!el.hasAttribute(key)) continue;
+    el.setAttribute(attr, el.getAttribute(key));
+    el.removeAttribute(key);
+  }
+}
+
 function restoreOriginalInArea(selector) {
   try {
     document.querySelectorAll(selector).forEach(root => {
       restoreElementText(root);
+      restoreElementAttributes(root);
       root.querySelectorAll('[data-i18n-original]').forEach(el => restoreElementText(el));
-      root.querySelectorAll('[data-i18n-original-title]').forEach(el => {
-        el.setAttribute('title', el.getAttribute('data-i18n-original-title'));
-      });
+      for (const attr of TRANSLATABLE_ATTRS) {
+        root.querySelectorAll(`[data-i18n-original-${attr}]`).forEach(restoreElementAttributes);
+      }
     });
   } catch (e) {}
 }
@@ -1405,7 +1432,7 @@ function init() {
     });
   }
 
-  observer.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['title'] });
+  observer.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: TRANSLATABLE_ATTRS });
   walkAndTranslate(document.body, true);
   logCacheStatus();
   if (IS_WORKBENCH) {

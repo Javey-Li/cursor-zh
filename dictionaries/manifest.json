@@ -5,11 +5,25 @@
   "cursorVersions": [
     "3.27.x"
   ],
-  "totalUniqueEntries": 2997,
+  "totalUniqueEntries": 3012,
   "patternCount": 244,
-  "conflictCount": 240,
+  "conflictCount": 241,
   "patternConflictCount": 0,
   "sources": [
+    {
+      "name": "cursor-zh high-priority overrides",
+      "url": "https://github.com/Javey-Li/cursor-zh/blob/main/dictionaries/overrides.json",
+      "license": "MIT",
+      "role": "override",
+      "sha256": "1bcdb22df082b2560cc5722862edded9cff1ef546f08d49068c8556cfa56b023",
+      "rawEntries": 16,
+      "usableEntries": 16,
+      "filteredEntries": 0,
+      "uniqueEntries": 16,
+      "duplicateKeys": 0,
+      "contributedEntries": 16,
+      "patterns": 0
+    },
     {
       "name": "vibepm666/cursor-localization-zh Core_Dictionary seeds",
       "url": "https://github.com/vibepm666/cursor-localization-zh/blob/main/localization/Core_Dictionary.json",
@@ -21,7 +35,7 @@
       "filteredEntries": 27,
       "uniqueEntries": 2570,
       "duplicateKeys": 113,
-      "contributedEntries": 2123,
+      "contributedEntries": 2122,
       "patterns": 239
     },
     {
@@ -68,10 +82,11 @@
     }
   ],
   "conflicts": {
-    "total": 240,
+    "total": 241,
     "byPair": {
       "mit>mit": 154,
       "mit>seed": 188,
+      "override>seed": 1,
       "own>mit": 1,
       "seed>seed": 4
     },

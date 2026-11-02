@@ -48,6 +48,10 @@ Each modified file carries the header line
 2. `packages/core/src/translator-engine.js`
    - Removed `callAnthropic()` and its `apiType === 'anthropic'` dispatch branch
    - Updated header comment (Cursor-only, not require()-able)
+   - Added `TRANSLATABLE_ATTRS`, `processAttribute()` and `processElementAttributes()` so
+     `aria-label`, `placeholder`, `data-placeholder`, `aria-placeholder` and `alt` are
+     translated in addition to text nodes and `title`
+   - Attribute mutations are observed and restored through `data-i18n-original-*`
 3. `packages/core/src/language-names.js`
    - Header comment no longer references patcher-claude
 4. `packages/patcher-cursor/package.json`

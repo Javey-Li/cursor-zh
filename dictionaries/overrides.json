@@ -1,0 +1,22 @@
+{
+  "description": "High-priority translations for Cursor 3.27 UI strings that are not covered cleanly by the merged sources.",
+  "updatedAt": "2026-11-03",
+  "entries": {
+    "New Agent (⇧⌘L)": "新建智能体 (⇧⌘L)",
+    "Toggle Primary Side Bar (⌘B)": "切换主侧边栏 (⌘B)",
+    "Toggle Agents (⌥⌘J)": "切换智能体 (⌥⌘J)",
+    "From Marketplace": "来自市场",
+    "From GitHub Repository": "来自 GitHub 仓库",
+    "From Local Repository": "来自本地仓库",
+    "Add Marketplace": "添加市场",
+    "No agents yet": "暂无智能体",
+    "Resize sidebar": "调整侧边栏大小",
+    "Notifications alt+T": "通知 alt+T",
+    "Prompt": "提示词",
+    "Start from scratch, select project": "从零开始，选择项目",
+    "Messages sent while Cursor is working can steer it mid-run without interrupting - turn it on under New Messages in Agents settings": "Cursor 工作时发送的消息可以在不中断运行的情况下引导它；可在智能体设置的「新消息」中开启",
+    "Use /automate to create Cursor Automations without leaving your agent chat": "使用 /automate 直接在智能体对话中创建 Cursor 自动化",
+    "Manage installed plugins": "管理已安装插件",
+    "Cursor Marketplace": "Cursor 市场"
+  }
+}

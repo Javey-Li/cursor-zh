@@ -81,7 +81,7 @@
 | `patterns[].flags` | 是 | 字符串，只允许 `d g i m s u v y`；不用时写 `""`。 |
 | `patterns[].replacement` | 是 | 非空替换模板，捕获组写作 `$1`…`$9`。 |
 | `sources[].name` / `.url` / `.license` | 是 | 非空字符串；`license` 要如实写（无许可就写 `NOASSERTION`，不要写成 MIT）。 |
-| `sources[].role` | 是 | 只允许 `seed` / `mit` / `own`。 |
+| `sources[].role` | 是 | 只允许 `seed` / `mit` / `own` / `override`。 |
 | `sources[].entries` | 是 | 该来源最终贡献的条数（非负整数）；**所有来源之和必须等于 `entries` 的键数**。 |
 
 > `tools/validate-dictionary.js` 是字段约束的最终依据（它还会交叉校验 `conflicts.json` 与 `manifest.json` 的计数）。本文与脚本不一致时以脚本为准，并顺手提 PR 修本文。

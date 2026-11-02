@@ -1,8 +1,8 @@
 # 来源与许可（Provenance）
 
-这份文档把 `cursor-zh` 里每一类内容的**来源、许可状态、我们如何使用它**写清楚，包括那些"许可不完美"的部分。目的很简单：任何人（包括上游作者）都能据此判断我们做了什么、有没有越界。
+下面是仓库里各类内容的来源、许可和使用方式。
 
-> 本文是诚实披露，不是法律意见。若你是权利人并认为某项使用不当，请见文末的[下架与联系](#下架与联系)政策。
+> 这不是法律意见。如果你是权利人并认为某项使用不当，见文末的[下架与联系](#下架与联系)。
 
 ## 一、总表
 
@@ -13,9 +13,10 @@
 | 3 | 字典种子数据 | `dictionaries/zh-CN.json` 中由 `role: seed` 来源贡献的条目（见 `manifest.json`） | 社区汉化项目 `vibepm666/cursor-localization-zh`，固定 commit `88f93c6` | **上游未提供 LICENSE** | **仅作为数据种子/翻译记忆**：在自有 schema 下重新过滤、合并、去重；不复制其代码、脚本或发布包 |
 | 4 | 字典条目（MIT 部分） | 同上（`role: mit` 的两个来源，条数见 `manifest.json`） | [Uncle-Gao/Live-Translator-Hub](https://github.com/Uncle-Gao/Live-Translator-Hub) 的 `dictionary.zh-CN.json`，commit `c667b8b` | MIT | 按条目并入，来源与条数记录在 `manifest.json` |
 | 5 | 字典条目（MIT 部分） | 同上 | [lsh2253823857/cursor-i18n-tool](https://github.com/lsh2253823857/cursor-i18n-tool) 的 `dict.js`，commit `a5dbf9e` | MIT | 以文本方式解析（**不执行**其代码）后按条目并入 |
-| 6 | 本项目新增词条 | 同上（`role: own`） | 本项目 | MIT | **311 条词条（去重后贡献 310 条）+ 5 条正则模式**，覆盖设置页、Agent、自动化、远程控制、浏览器/网络、用量、PR 审查、安全提示等；最终字典合计 2997 条唯一词条 / 244 条模式 |
-| 7 | VS Code 中文语言包 | 不随仓库分发；CLI 在缺失时通过 Cursor 扩展 CLI 安装 | Microsoft（Visual Studio Code 语言包） | Microsoft 的许可与 Marketplace 条款 | **不打包、不再分发**；只调用官方安装通道 |
-| 8 | Cursor 应用本体 | 不随仓库分发 | Anysphere | 专有 | 只在本地修改用户已安装的副本，不重新分发 |
+| 6 | 本项目新增词条 | 同上（`role: own`） | 本项目 | MIT | **311 条词条（去重后贡献 310 条）+ 5 条正则模式**，覆盖设置页、Agent、自动化、远程控制、浏览器/网络、用量、PR 审查、安全提示等 |
+| 7 | 高优先级覆盖词条 | `dictionaries/overrides.json`（`role: override`） | 本项目 | MIT | 16 条针对 Cursor 3.27 菜单、快捷键和空状态的补充；最终字典合计 3012 条唯一词条 / 244 条模式 |
+| 8 | VS Code 中文语言包 | 不随仓库分发；CLI 在缺失时通过 Cursor 扩展 CLI 安装 | Microsoft（Visual Studio Code 语言包） | Microsoft 的许可与 Marketplace 条款 | **不打包、不再分发**；只调用官方安装通道 |
+| 9 | Cursor 应用本体 | 不随仓库分发 | Anysphere | 专有 | 只在本地修改用户已安装的副本，不重新分发 |
 
 表中第 3 行是本项目**唯一许可状态不完整**的部分，下面单独说明。
 

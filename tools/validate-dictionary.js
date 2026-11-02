@@ -14,7 +14,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const ROLES = new Set(['seed', 'mit', 'own']);
+const ROLES = new Set(['seed', 'mit', 'own', 'override']);
 const DEFAULT_PATH = path.join(__dirname, '..', 'dictionaries', 'zh-CN.json');
 
 function isPlainObject(value) {
@@ -125,7 +125,7 @@ function validate(dictionary, errors, warnings) {
       for (const field of ['name', 'url', 'license']) {
         if (!isNonEmptyString(source[field])) errors.push(`sources[${index}].${field} must be a non-empty string`);
       }
-      if (!ROLES.has(source.role)) errors.push(`sources[${index}].role must be one of seed|mit|own`);
+      if (!ROLES.has(source.role)) errors.push(`sources[${index}].role must be one of seed|mit|own|override`);
       if (!Number.isInteger(source.entries) || source.entries < 0) {
         errors.push(`sources[${index}].entries must be a non-negative integer`);
       } else {

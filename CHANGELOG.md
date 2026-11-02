@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — 2026-11-03
+
+- Translate `aria-label`, `placeholder`, `data-placeholder`, `aria-placeholder` and `alt`, not just text nodes and `title`. Toolbar buttons, icon controls and search boxes no longer stay English.
+- Add `dictionaries/overrides.json` for high-priority Cursor 3.27 strings, and teach the builder to merge it first.
+- Rebuild the dictionary: 3,012 unique entries and 244 patterns.
+- Rewrite the README in a plainer, shorter style.
+
 ## 0.2.0 — 2026-11-03
 
 - Add the `cursor-zh` agent skill (`skills/cursor-zh/SKILL.md`) with a fixed check → dry-run → confirm → install → verify → restore workflow and safety rules.
