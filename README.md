@@ -1,6 +1,6 @@
 # cursor-zh
 
-把 Cursor 的界面换成简体中文。只做 Cursor，不支持 Claude 或其它编辑器。
+把 Cursor 的界面换成简体中文。
 
 Cursor 是基于 VS Code 改的，界面可以分成两部分：编辑器、文件树、命令面板这些来自 VS Code；Agent 面板、Cursor 设置、云端智能体这些是 Cursor 自己写的。微软的中文语言包只能翻译前一部分，这个工具把后一部分也补上。
 
